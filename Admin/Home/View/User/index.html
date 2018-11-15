@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+	<title></title>
+	<link rel="stylesheet" href="__PUBLIC__/css/public.css" />
+	<script type="text/javascript" src="__PUBLIC__/js/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript" src="__PUBLIC__/js/public.js"></script>	
+</head>
+<body>
+	<table class="table">
+		<tr>
+			<td class="th" colspan="10">用户管理</td>
+		</tr>
+		<tr>
+			<th align="center" valign="middle">用户ID</th>
+			<th align="center" valign="middle">用户名字</th>
+			<th align="center" valign="middle">用户手机</th>
+			<th align="center" valign="middle">操作</th>
+		</tr>
+		<foreach name='list' item='vo'>
+		<tr>
+			<td align="center" valign="middle">{$vo.user_id}</td>
+			<td align="center" valign="middle"><a href="">{$vo.user_name}</a></td>
+			<td class="font" align="center" valign="middle">{$vo.user_phone}</td>
+			<td align="center" valign="middle">
+				<a class="change" class="change" href="{:U('Home/user/change',array('user_id'=>$vo['user_id']))}">修改用户</a>
+				<a class="delete" class="delete"  href="{:U('Home/user/del',array('user_id'=>$vo['user_id']))}" class="del">删除用户</a>
+			</td>
+		</tr>
+		</foreach>
+	</table>
+		<div class="page">
+		{$show}
+		</div>
+</body>
+</html>

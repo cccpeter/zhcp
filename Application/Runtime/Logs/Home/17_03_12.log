@@ -1,0 +1,620 @@
+[ 2017-03-12T02:01:39+08:00 ] 127.0.0.1 /evaluation_system/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-12T02:01:39+08:00 ] 127.0.0.1 /evaluation_system/index.php/home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-12T02:01:43+08:00 ] 127.0.0.1 /evaluation_system/index.php/Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0580s ]
+SQL: SELECT * FROM `user` WHERE `user_number` = 1 AND `user_password` = '123' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-12T02:36:59+08:00 ] 127.0.0.1 /evaluation_system/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-12T02:36:59+08:00 ] 127.0.0.1 /evaluation_system/index.php/home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-12T02:37:03+08:00 ] 127.0.0.1 /evaluation_system/index.php/Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `user` WHERE `user_number` = 152011002 AND `user_password` = '123' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-12T02:37:03+08:00 ] 127.0.0.1 /evaluation_system/index.php/home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `basetwolevelindex` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `basetwolevelindex` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `basetwolevelindex`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `deveonelevelindex` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `deveonelevelindex` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `deveonelevelindex`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-12T02:38:28+08:00 ] 127.0.0.1 /evaluation_system/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `schoolyear` [ RunTime:0.0030s ]
+SQL: SELECT `schoolyear_id` FROM `schoolyear` WHERE `schoolyear_nowyear` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `basetwograde` [ RunTime:0.0030s ]
+SQL: INSERT INTO `basetwograde` (`basetwograde_selfscorea`,`basetwograde_selfscoreb`,`basetwograde_selfscorec`,`schoolyear_id`,`basetwolevelindex_id`,`user_id`) VALUES ('2','2','2','2','1','1') [ RunTime:0.1520s ]
+SQL: INSERT INTO `basetwograde` (`basetwograde_selfscorea`,`basetwograde_selfscoreb`,`basetwograde_selfscorec`,`schoolyear_id`,`basetwolevelindex_id`,`user_id`) VALUES ('2','2','2','2','1','1') [ RunTime:0.0360s ]
+SQL: INSERT INTO `basetwograde` (`basetwograde_selfscorea`,`basetwograde_selfscoreb`,`basetwograde_selfscorec`,`schoolyear_id`,`basetwolevelindex_id`,`user_id`) VALUES ('2','2','2','2','1','1') [ RunTime:0.1010s ]
+SQL: INSERT INTO `basetwograde` (`basetwograde_selfscorea`,`basetwograde_selfscoreb`,`basetwograde_selfscorec`,`schoolyear_id`,`basetwolevelindex_id`,`user_id`) VALUES ('2','2','2','2','2','1') [ RunTime:0.0300s ]
+SQL: INSERT INTO `basetwograde` (`basetwograde_selfscorea`,`basetwograde_selfscoreb`,`basetwograde_selfscorec`,`schoolyear_id`,`basetwolevelindex_id`,`user_id`) VALUES ('2','2','2','2','2','1') [ RunTime:0.0280s ]
+SQL: INSERT INTO `basetwograde` (`basetwograde_selfscorea`,`basetwograde_selfscoreb`,`basetwograde_selfscorec`,`schoolyear_id`,`basetwolevelindex_id`,`user_id`) VALUES ('2','2','2','2','2','1') [ RunTime:0.0260s ]
+SQL: INSERT INTO `basetwograde` (`basetwograde_selfscorea`,`basetwograde_selfscoreb`,`basetwograde_selfscorec`,`schoolyear_id`,`basetwolevelindex_id`,`user_id`) VALUES ('2','2','2','2','3','1') [ RunTime:0.0280s ]
+SQL: INSERT INTO `basetwograde` (`basetwograde_selfscorea`,`basetwograde_selfscoreb`,`basetwograde_selfscorec`,`schoolyear_id`,`basetwolevelindex_id`,`user_id`) VALUES ('2','2','2','2','4','1') [ RunTime:0.0250s ]
+SQL: INSERT INTO `basetwograde` (`basetwograde_selfscorea`,`basetwograde_selfscoreb`,`basetwograde_selfscorec`,`schoolyear_id`,`basetwolevelindex_id`,`user_id`) VALUES ('2','2','2','2','5','1') [ RunTime:0.0350s ]
+SQL: INSERT INTO `basetwograde` (`basetwograde_selfscorea`,`basetwograde_selfscoreb`,`basetwograde_selfscorec`,`schoolyear_id`,`basetwolevelindex_id`,`user_id`) VALUES ('2','2','2','2','5','1') [ RunTime:0.0300s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\wamp\www\evaluation_system\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: savePath E:\wamp\www\evaluation_system\Application\Home\Controller\IndexController.class.php 第 138 行.
+SQL: SHOW COLUMNS FROM `deveonelevelgrade` [ RunTime:0.0030s ]
+SQL: INSERT INTO `deveonelevelgrade` (`deveonelevelgrade_selfscore`,`deveonelevelgrade_reason`,`deveonelevelindex_id`,`deveonelevelgrade_url`,`schoolyear_id`,`user_id`) VALUES ('100','吹牛比赛荣获特等奖','1','58c44424bbfa4.png','2','1') [ RunTime:0.0580s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-12T02:39:48+08:00 ] 127.0.0.1 /evaluation_system/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `schoolyear` [ RunTime:0.0040s ]
+SQL: SELECT `schoolyear_id` FROM `schoolyear` WHERE `schoolyear_nowyear` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `basetwograde` [ RunTime:0.0040s ]
+SQL: INSERT INTO `basetwograde` (`basetwograde_selfscorea`,`basetwograde_selfscoreb`,`basetwograde_selfscorec`,`schoolyear_id`,`basetwolevelindex_id`,`user_id`) VALUES ('1','2','3','2','1','1') [ RunTime:0.2830s ]
+SQL: INSERT INTO `basetwograde` (`basetwograde_selfscorea`,`basetwograde_selfscoreb`,`basetwograde_selfscorec`,`schoolyear_id`,`basetwolevelindex_id`,`user_id`) VALUES ('4','5','6','2','1','1') [ RunTime:0.1120s ]
+SQL: INSERT INTO `basetwograde` (`basetwograde_selfscorea`,`basetwograde_selfscoreb`,`basetwograde_selfscorec`,`schoolyear_id`,`basetwolevelindex_id`,`user_id`) VALUES ('7','8','9','2','1','1') [ RunTime:0.0270s ]
+SQL: INSERT INTO `basetwograde` (`basetwograde_selfscorea`,`basetwograde_selfscoreb`,`basetwograde_selfscorec`,`schoolyear_id`,`basetwolevelindex_id`,`user_id`) VALUES ('10','11','12','2','2','1') [ RunTime:0.1130s ]
+SQL: INSERT INTO `basetwograde` (`basetwograde_selfscorea`,`basetwograde_selfscoreb`,`basetwograde_selfscorec`,`schoolyear_id`,`basetwolevelindex_id`,`user_id`) VALUES ('2','2','2','2','2','1') [ RunTime:0.0280s ]
+SQL: INSERT INTO `basetwograde` (`basetwograde_selfscorea`,`basetwograde_selfscoreb`,`basetwograde_selfscorec`,`schoolyear_id`,`basetwolevelindex_id`,`user_id`) VALUES ('2','2','2','2','2','1') [ RunTime:0.0260s ]
+SQL: INSERT INTO `basetwograde` (`basetwograde_selfscorea`,`basetwograde_selfscoreb`,`basetwograde_selfscorec`,`schoolyear_id`,`basetwolevelindex_id`,`user_id`) VALUES ('2','2','2','2','3','1') [ RunTime:0.0280s ]
+SQL: INSERT INTO `basetwograde` (`basetwograde_selfscorea`,`basetwograde_selfscoreb`,`basetwograde_selfscorec`,`schoolyear_id`,`basetwolevelindex_id`,`user_id`) VALUES ('2','2','2','2','4','1') [ RunTime:0.0390s ]
+SQL: INSERT INTO `basetwograde` (`basetwograde_selfscorea`,`basetwograde_selfscoreb`,`basetwograde_selfscorec`,`schoolyear_id`,`basetwolevelindex_id`,`user_id`) VALUES ('2','2','2','2','5','1') [ RunTime:0.0290s ]
+SQL: INSERT INTO `basetwograde` (`basetwograde_selfscorea`,`basetwograde_selfscoreb`,`basetwograde_selfscorec`,`schoolyear_id`,`basetwolevelindex_id`,`user_id`) VALUES ('2','2','2','2','5','1') [ RunTime:0.0280s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\evaluation_system\ThinkPHP\Common\functions.php:850) E:\wamp\www\evaluation_system\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\evaluation_system\ThinkPHP\Common\functions.php:850) E:\wamp\www\evaluation_system\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\evaluation_system\ThinkPHP\Common\functions.php:850) E:\wamp\www\evaluation_system\ThinkPHP\Library\Think\View.class.php 第 93 行.
+
+[ 2017-03-12T02:41:55+08:00 ] 127.0.0.1 /evaluation_system/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `schoolyear` [ RunTime:0.0070s ]
+SQL: SELECT `schoolyear_id` FROM `schoolyear` WHERE `schoolyear_nowyear` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `basetwograde` [ RunTime:0.0050s ]
+SQL: INSERT INTO `basetwograde` (`basetwograde_selfscorea`,`basetwograde_selfscoreb`,`basetwograde_selfscorec`,`schoolyear_id`,`basetwolevelindex_id`,`user_id`) VALUES ('1','2','3','2','1','1') [ RunTime:0.1830s ]
+SQL: INSERT INTO `basetwograde` (`basetwograde_selfscorea`,`basetwograde_selfscoreb`,`basetwograde_selfscorec`,`schoolyear_id`,`basetwolevelindex_id`,`user_id`) VALUES ('4','5','6','2','1','1') [ RunTime:0.1550s ]
+SQL: INSERT INTO `basetwograde` (`basetwograde_selfscorea`,`basetwograde_selfscoreb`,`basetwograde_selfscorec`,`schoolyear_id`,`basetwolevelindex_id`,`user_id`) VALUES ('7','8','9','2','1','1') [ RunTime:0.0340s ]
+SQL: INSERT INTO `basetwograde` (`basetwograde_selfscorea`,`basetwograde_selfscoreb`,`basetwograde_selfscorec`,`schoolyear_id`,`basetwolevelindex_id`,`user_id`) VALUES ('10','11','12','2','2','1') [ RunTime:0.0220s ]
+SQL: INSERT INTO `basetwograde` (`basetwograde_selfscorea`,`basetwograde_selfscoreb`,`basetwograde_selfscorec`,`schoolyear_id`,`basetwolevelindex_id`,`user_id`) VALUES ('2','2','2','2','2','1') [ RunTime:0.1640s ]
+SQL: INSERT INTO `basetwograde` (`basetwograde_selfscorea`,`basetwograde_selfscoreb`,`basetwograde_selfscorec`,`schoolyear_id`,`basetwolevelindex_id`,`user_id`) VALUES ('2','2','2','2','2','1') [ RunTime:0.0280s ]
+SQL: INSERT INTO `basetwograde` (`basetwograde_selfscorea`,`basetwograde_selfscoreb`,`basetwograde_selfscorec`,`schoolyear_id`,`basetwolevelindex_id`,`user_id`) VALUES ('2','2','2','2','3','1') [ RunTime:0.1870s ]
+SQL: INSERT INTO `basetwograde` (`basetwograde_selfscorea`,`basetwograde_selfscoreb`,`basetwograde_selfscorec`,`schoolyear_id`,`basetwolevelindex_id`,`user_id`) VALUES ('2','2','2','2','4','1') [ RunTime:0.0460s ]
+SQL: INSERT INTO `basetwograde` (`basetwograde_selfscorea`,`basetwograde_selfscoreb`,`basetwograde_selfscorec`,`schoolyear_id`,`basetwolevelindex_id`,`user_id`) VALUES ('2','2','2','2','5','1') [ RunTime:0.0390s ]
+SQL: INSERT INTO `basetwograde` (`basetwograde_selfscorea`,`basetwograde_selfscoreb`,`basetwograde_selfscorec`,`schoolyear_id`,`basetwolevelindex_id`,`user_id`) VALUES ('2','2','2','2','5','1') [ RunTime:0.0580s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.003000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\evaluation_system\ThinkPHP\Common\functions.php:850) E:\wamp\www\evaluation_system\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\evaluation_system\ThinkPHP\Common\functions.php:850) E:\wamp\www\evaluation_system\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\evaluation_system\ThinkPHP\Common\functions.php:850) E:\wamp\www\evaluation_system\ThinkPHP\Library\Think\View.class.php 第 93 行.
+
+[ 2017-03-12T02:42:23+08:00 ] 127.0.0.1 /evaluation_system/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `schoolyear` [ RunTime:0.0030s ]
+SQL: SELECT `schoolyear_id` FROM `schoolyear` WHERE `schoolyear_nowyear` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `basetwograde` [ RunTime:0.0050s ]
+SQL: INSERT INTO `basetwograde` (`basetwograde_selfscorea`,`basetwograde_selfscoreb`,`basetwograde_selfscorec`,`schoolyear_id`,`basetwolevelindex_id`,`user_id`) VALUES ('1','2','3','2','1','1') [ RunTime:0.1680s ]
+SQL: INSERT INTO `basetwograde` (`basetwograde_selfscorea`,`basetwograde_selfscoreb`,`basetwograde_selfscorec`,`schoolyear_id`,`basetwolevelindex_id`,`user_id`) VALUES ('4','5','6','2','1','1') [ RunTime:0.1750s ]
+SQL: INSERT INTO `basetwograde` (`basetwograde_selfscorea`,`basetwograde_selfscoreb`,`basetwograde_selfscorec`,`schoolyear_id`,`basetwolevelindex_id`,`user_id`) VALUES ('7','8','9','2','1','1') [ RunTime:0.1070s ]
+SQL: INSERT INTO `basetwograde` (`basetwograde_selfscorea`,`basetwograde_selfscoreb`,`basetwograde_selfscorec`,`schoolyear_id`,`basetwolevelindex_id`,`user_id`) VALUES ('10','11','12','2','2','1') [ RunTime:0.1780s ]
+SQL: INSERT INTO `basetwograde` (`basetwograde_selfscorea`,`basetwograde_selfscoreb`,`basetwograde_selfscorec`,`schoolyear_id`,`basetwolevelindex_id`,`user_id`) VALUES ('2','2','2','2','2','1') [ RunTime:0.1910s ]
+SQL: INSERT INTO `basetwograde` (`basetwograde_selfscorea`,`basetwograde_selfscoreb`,`basetwograde_selfscorec`,`schoolyear_id`,`basetwolevelindex_id`,`user_id`) VALUES ('2','2','2','2','2','1') [ RunTime:0.1370s ]
+SQL: INSERT INTO `basetwograde` (`basetwograde_selfscorea`,`basetwograde_selfscoreb`,`basetwograde_selfscorec`,`schoolyear_id`,`basetwolevelindex_id`,`user_id`) VALUES ('2','2','2','2','3','1') [ RunTime:0.0280s ]
+SQL: INSERT INTO `basetwograde` (`basetwograde_selfscorea`,`basetwograde_selfscoreb`,`basetwograde_selfscorec`,`schoolyear_id`,`basetwolevelindex_id`,`user_id`) VALUES ('2','2','2','2','4','1') [ RunTime:0.0220s ]
+SQL: INSERT INTO `basetwograde` (`basetwograde_selfscorea`,`basetwograde_selfscoreb`,`basetwograde_selfscorec`,`schoolyear_id`,`basetwolevelindex_id`,`user_id`) VALUES ('2','2','2','2','5','1') [ RunTime:0.0300s ]
+SQL: INSERT INTO `basetwograde` (`basetwograde_selfscorea`,`basetwograde_selfscoreb`,`basetwograde_selfscorec`,`schoolyear_id`,`basetwolevelindex_id`,`user_id`) VALUES ('2','2','2','2','5','1') [ RunTime:0.0440s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\wamp\www\evaluation_system\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: savePath E:\wamp\www\evaluation_system\Application\Home\Controller\IndexController.class.php 第 138 行.
+SQL: SHOW COLUMNS FROM `deveonelevelgrade` [ RunTime:0.0030s ]
+SQL: INSERT INTO `deveonelevelgrade` (`deveonelevelgrade_selfscore`,`deveonelevelgrade_reason`,`deveonelevelindex_id`,`deveonelevelgrade_url`,`schoolyear_id`,`user_id`) VALUES ('200','吹牛比赛荣获特等奖','1','58c4450f68d41.png','2','1') [ RunTime:0.0280s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-03-12T02:46:36+08:00 ] 127.0.0.1 /evaluation_system/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `schoolyear` [ RunTime:0.0060s ]
+SQL: SELECT `schoolyear_id` FROM `schoolyear` WHERE `schoolyear_nowyear` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `basetwograde` [ RunTime:0.0040s ]
+SQL: INSERT INTO `basetwograde` (`basetwograde_selfscorea`,`basetwograde_selfscoreb`,`basetwograde_selfscorec`,`schoolyear_id`,`basetwolevelindex_id`,`user_id`) VALUES ('1','2','3','2','1','1') [ RunTime:0.2160s ]
+SQL: INSERT INTO `basetwograde` (`basetwograde_selfscorea`,`basetwograde_selfscoreb`,`basetwograde_selfscorec`,`schoolyear_id`,`basetwolevelindex_id`,`user_id`) VALUES ('4','5','6','2','1','1') [ RunTime:0.1200s ]
+SQL: INSERT INTO `basetwograde` (`basetwograde_selfscorea`,`basetwograde_selfscoreb`,`basetwograde_selfscorec`,`schoolyear_id`,`basetwolevelindex_id`,`user_id`) VALUES ('7','8','9','2','1','1') [ RunTime:0.1400s ]
+SQL: INSERT INTO `basetwograde` (`basetwograde_selfscorea`,`basetwograde_selfscoreb`,`basetwograde_selfscorec`,`schoolyear_id`,`basetwolevelindex_id`,`user_id`) VALUES ('10','11','12','2','2','1') [ RunTime:0.0330s ]
+SQL: INSERT INTO `basetwograde` (`basetwograde_selfscorea`,`basetwograde_selfscoreb`,`basetwograde_selfscorec`,`schoolyear_id`,`basetwolevelindex_id`,`user_id`) VALUES ('2','2','2','2','2','1') [ RunTime:0.0290s ]
+SQL: INSERT INTO `basetwograde` (`basetwograde_selfscorea`,`basetwograde_selfscoreb`,`basetwograde_selfscorec`,`schoolyear_id`,`basetwolevelindex_id`,`user_id`) VALUES ('2','2','2','2','2','1') [ RunTime:0.0220s ]
+SQL: INSERT INTO `basetwograde` (`basetwograde_selfscorea`,`basetwograde_selfscoreb`,`basetwograde_selfscorec`,`schoolyear_id`,`basetwolevelindex_id`,`user_id`) VALUES ('2','2','2','2','3','1') [ RunTime:0.0290s ]
+SQL: INSERT INTO `basetwograde` (`basetwograde_selfscorea`,`basetwograde_selfscoreb`,`basetwograde_selfscorec`,`schoolyear_id`,`basetwolevelindex_id`,`user_id`) VALUES ('2','2','2','2','4','1') [ RunTime:0.0450s ]
+SQL: INSERT INTO `basetwograde` (`basetwograde_selfscorea`,`basetwograde_selfscoreb`,`basetwograde_selfscorec`,`schoolyear_id`,`basetwolevelindex_id`,`user_id`) VALUES ('2','2','2','2','5','1') [ RunTime:0.0290s ]
+SQL: INSERT INTO `basetwograde` (`basetwograde_selfscorea`,`basetwograde_selfscoreb`,`basetwograde_selfscorec`,`schoolyear_id`,`basetwolevelindex_id`,`user_id`) VALUES ('2','2','2','2','5','1') [ RunTime:0.0220s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\wamp\www\evaluation_system\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: savePath E:\wamp\www\evaluation_system\Application\Home\Controller\IndexController.class.php 第 138 行.
+SQL: SHOW COLUMNS FROM `deveonelevelgrade` [ RunTime:0.0040s ]
+SQL: INSERT INTO `deveonelevelgrade` (`deveonelevelgrade_selfscore`,`deveonelevelgrade_reason`,`deveonelevelindex_id`,`deveonelevelgrade_url`,`schoolyear_id`,`user_id`) VALUES ('200','吹牛比赛荣获特等奖','1','58c4460cc5f76.png','2','1') [ RunTime:0.0500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-12T16:52:06+08:00 ] 127.0.0.1 /evaluation_system/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `schoolyear` [ RunTime:0.0030s ]
+SQL: SELECT `schoolyear_id` FROM `schoolyear` WHERE `schoolyear_nowyear` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `basetwograde` [ RunTime:0.0050s ]
+SQL: INSERT INTO `basetwograde` (`basetwograde_selfscorea`,`basetwograde_selfscoreb`,`basetwograde_selfscorec`,`schoolyear_id`,`basetwolevelindex_id`,`baseonelevelindex_id`,`user_id`) VALUES ('1','2','3','2','1','1','1') [ RunTime:0.0770s ]
+SQL: INSERT INTO `basetwograde` (`basetwograde_selfscorea`,`basetwograde_selfscoreb`,`basetwograde_selfscorec`,`schoolyear_id`,`basetwolevelindex_id`,`baseonelevelindex_id`,`user_id`) VALUES ('4','5','6','2','1','2','1') [ RunTime:0.0360s ]
+SQL: INSERT INTO `basetwograde` (`basetwograde_selfscorea`,`basetwograde_selfscoreb`,`basetwograde_selfscorec`,`schoolyear_id`,`basetwolevelindex_id`,`baseonelevelindex_id`,`user_id`) VALUES ('7','8','9','2','1','3','1') [ RunTime:0.1040s ]
+SQL: INSERT INTO `basetwograde` (`basetwograde_selfscorea`,`basetwograde_selfscoreb`,`basetwograde_selfscorec`,`schoolyear_id`,`basetwolevelindex_id`,`baseonelevelindex_id`,`user_id`) VALUES ('10','11','12','2','2','4','1') [ RunTime:0.0260s ]
+SQL: INSERT INTO `basetwograde` (`basetwograde_selfscorea`,`basetwograde_selfscoreb`,`basetwograde_selfscorec`,`schoolyear_id`,`basetwolevelindex_id`,`baseonelevelindex_id`,`user_id`) VALUES ('2','2','2','2','2','5','1') [ RunTime:0.0260s ]
+SQL: INSERT INTO `basetwograde` (`basetwograde_selfscorea`,`basetwograde_selfscoreb`,`basetwograde_selfscorec`,`schoolyear_id`,`basetwolevelindex_id`,`baseonelevelindex_id`,`user_id`) VALUES ('2','2','2','2','2','6','1') [ RunTime:0.0260s ]
+SQL: INSERT INTO `basetwograde` (`basetwograde_selfscorea`,`basetwograde_selfscoreb`,`basetwograde_selfscorec`,`schoolyear_id`,`basetwolevelindex_id`,`baseonelevelindex_id`,`user_id`) VALUES ('2','2','2','2','3','7','1') [ RunTime:0.0260s ]
+SQL: INSERT INTO `basetwograde` (`basetwograde_selfscorea`,`basetwograde_selfscoreb`,`basetwograde_selfscorec`,`schoolyear_id`,`basetwolevelindex_id`,`baseonelevelindex_id`,`user_id`) VALUES ('2','2','2','2','4','8','1') [ RunTime:0.0260s ]
+SQL: INSERT INTO `basetwograde` (`basetwograde_selfscorea`,`basetwograde_selfscoreb`,`basetwograde_selfscorec`,`schoolyear_id`,`basetwolevelindex_id`,`baseonelevelindex_id`,`user_id`) VALUES ('2','2','2','2','5','9','1') [ RunTime:0.0490s ]
+SQL: INSERT INTO `basetwograde` (`basetwograde_selfscorea`,`basetwograde_selfscoreb`,`basetwograde_selfscorec`,`schoolyear_id`,`basetwolevelindex_id`,`baseonelevelindex_id`,`user_id`) VALUES ('2','2','2','2','5','10','1') [ RunTime:0.0260s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\wamp\www\evaluation_system\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\wamp\www\evaluation_system\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: savePath E:\wamp\www\evaluation_system\Application\Home\Controller\IndexController.class.php 第 148 行.
+NOTIC: [8] Undefined index: savePath E:\wamp\www\evaluation_system\Application\Home\Controller\IndexController.class.php 第 148 行.
+SQL: SHOW COLUMNS FROM `deveonelevelgrade` [ RunTime:0.0040s ]
+SQL: INSERT INTO `deveonelevelgrade` (`deveonelevelgrade_selfscore`,`deveonelevelgrade_reason`,`deveonelevelindex_id`,`deveonelevelgrade_url`,`schoolyear_id`,`user_id`) VALUES ('200','影帝将','1','58c50c3623426.jpg,58c50c36243c6.jpg','2','1') [ RunTime:0.0810s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-12T17:33:37+08:00 ] 127.0.0.1 /evaluation_system/index.php/home/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-12T17:33:37+08:00 ] 127.0.0.1 /evaluation_system/index.php/home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-03-12T17:33:42+08:00 ] 127.0.0.1 /evaluation_system/index.php/Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `user` WHERE `user_number` = 152011002 AND `user_password` = '123' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-03-12T17:33:42+08:00 ] 127.0.0.1 /evaluation_system/index.php/home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `basetwolevelindex` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `basetwolevelindex` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `basetwolevelindex`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `deveonelevelindex` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `deveonelevelindex` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `deveonelevelindex`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-12T17:36:44+08:00 ] 127.0.0.1 /evaluation_system/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `schoolyear` [ RunTime:0.0040s ]
+SQL: SELECT `schoolyear_id` FROM `schoolyear` WHERE `schoolyear_nowyear` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `basetwograde` [ RunTime:0.0040s ]
+SQL: INSERT INTO `basetwograde` (`basetwograde_selfscorea`,`basetwograde_selfscoreb`,`basetwograde_selfscorec`,`schoolyear_id`,`basetwolevelindex_id`,`baseonelevelindex_id`,`user_id`) VALUES ('2','2','2','2','1','1','1') [ RunTime:0.4620s ]
+SQL: INSERT INTO `basetwograde` (`basetwograde_selfscorea`,`basetwograde_selfscoreb`,`basetwograde_selfscorec`,`schoolyear_id`,`basetwolevelindex_id`,`baseonelevelindex_id`,`user_id`) VALUES ('2','2','2','2','1','2','1') [ RunTime:0.2670s ]
+SQL: INSERT INTO `basetwograde` (`basetwograde_selfscorea`,`basetwograde_selfscoreb`,`basetwograde_selfscorec`,`schoolyear_id`,`basetwolevelindex_id`,`baseonelevelindex_id`,`user_id`) VALUES ('2','2','2','2','1','3','1') [ RunTime:0.0350s ]
+SQL: INSERT INTO `basetwograde` (`basetwograde_selfscorea`,`basetwograde_selfscoreb`,`basetwograde_selfscorec`,`schoolyear_id`,`basetwolevelindex_id`,`baseonelevelindex_id`,`user_id`) VALUES ('2','2','2','2','2','4','1') [ RunTime:0.1370s ]
+SQL: INSERT INTO `basetwograde` (`basetwograde_selfscorea`,`basetwograde_selfscoreb`,`basetwograde_selfscorec`,`schoolyear_id`,`basetwolevelindex_id`,`baseonelevelindex_id`,`user_id`) VALUES ('2','2','2','2','2','5','1') [ RunTime:0.0350s ]
+SQL: INSERT INTO `basetwograde` (`basetwograde_selfscorea`,`basetwograde_selfscoreb`,`basetwograde_selfscorec`,`schoolyear_id`,`basetwolevelindex_id`,`baseonelevelindex_id`,`user_id`) VALUES ('2','2','2','2','2','6','1') [ RunTime:0.0280s ]
+SQL: INSERT INTO `basetwograde` (`basetwograde_selfscorea`,`basetwograde_selfscoreb`,`basetwograde_selfscorec`,`schoolyear_id`,`basetwolevelindex_id`,`baseonelevelindex_id`,`user_id`) VALUES ('2','2','2','2','3','7','1') [ RunTime:0.0340s ]
+SQL: INSERT INTO `basetwograde` (`basetwograde_selfscorea`,`basetwograde_selfscoreb`,`basetwograde_selfscorec`,`schoolyear_id`,`basetwolevelindex_id`,`baseonelevelindex_id`,`user_id`) VALUES ('2','2','2','2','4','8','1') [ RunTime:0.0290s ]
+SQL: INSERT INTO `basetwograde` (`basetwograde_selfscorea`,`basetwograde_selfscoreb`,`basetwograde_selfscorec`,`schoolyear_id`,`basetwolevelindex_id`,`baseonelevelindex_id`,`user_id`) VALUES ('2','2','2','2','5','9','1') [ RunTime:0.0640s ]
+SQL: INSERT INTO `basetwograde` (`basetwograde_selfscorea`,`basetwograde_selfscoreb`,`basetwograde_selfscorec`,`schoolyear_id`,`basetwolevelindex_id`,`baseonelevelindex_id`,`user_id`) VALUES ('2','2','2','2','5','10','1') [ RunTime:0.0330s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\wamp\www\evaluation_system\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: savePath E:\wamp\www\evaluation_system\Application\Home\Controller\IndexController.class.php 第 148 行.
+SQL: SHOW COLUMNS FROM `deveonelevelgrade` [ RunTime:0.0060s ]
+SQL: INSERT INTO `deveonelevelgrade` (`deveonelevelgrade_selfscore`,`deveonelevelgrade_reason`,`deveonelevelindex_id`,`deveonelevelgrade_url`,`schoolyear_id`,`user_id`) VALUES ('4','小金人奖','1','58c516ac44433.gif','2','1') [ RunTime:0.0600s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\evaluation_system\ThinkPHP\Common\functions.php:850) E:\wamp\www\evaluation_system\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\evaluation_system\ThinkPHP\Common\functions.php:850) E:\wamp\www\evaluation_system\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\evaluation_system\ThinkPHP\Common\functions.php:850) E:\wamp\www\evaluation_system\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-12T17:36:45+08:00 ] 127.0.0.1 /evaluation_system/index.php/home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `basetwolevelindex` [ RunTime:0.0140s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `basetwolevelindex` LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `basetwolevelindex`  [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `deveonelevelindex` [ RunTime:0.0100s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `deveonelevelindex` LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `deveonelevelindex`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-12T17:38:09+08:00 ] 127.0.0.1 /evaluation_system/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `schoolyear` [ RunTime:0.0040s ]
+SQL: SELECT `schoolyear_id` FROM `schoolyear` WHERE `schoolyear_nowyear` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `basetwograde` [ RunTime:0.0050s ]
+SQL: INSERT INTO `basetwograde` (`basetwograde_selfscorea`,`basetwograde_selfscoreb`,`basetwograde_selfscorec`,`schoolyear_id`,`basetwolevelindex_id`,`baseonelevelindex_id`,`user_id`) VALUES ('2','2','2','2','1','1','1') [ RunTime:0.3840s ]
+SQL: INSERT INTO `basetwograde` (`basetwograde_selfscorea`,`basetwograde_selfscoreb`,`basetwograde_selfscorec`,`schoolyear_id`,`basetwolevelindex_id`,`baseonelevelindex_id`,`user_id`) VALUES ('2','2','2','2','1','2','1') [ RunTime:0.1420s ]
+SQL: INSERT INTO `basetwograde` (`basetwograde_selfscorea`,`basetwograde_selfscoreb`,`basetwograde_selfscorec`,`schoolyear_id`,`basetwolevelindex_id`,`baseonelevelindex_id`,`user_id`) VALUES ('2','2','2','2','1','3','1') [ RunTime:0.0400s ]
+SQL: INSERT INTO `basetwograde` (`basetwograde_selfscorea`,`basetwograde_selfscoreb`,`basetwograde_selfscorec`,`schoolyear_id`,`basetwolevelindex_id`,`baseonelevelindex_id`,`user_id`) VALUES ('2','2','2','2','2','4','1') [ RunTime:0.0360s ]
+SQL: INSERT INTO `basetwograde` (`basetwograde_selfscorea`,`basetwograde_selfscoreb`,`basetwograde_selfscorec`,`schoolyear_id`,`basetwolevelindex_id`,`baseonelevelindex_id`,`user_id`) VALUES ('2','2','2','2','2','5','1') [ RunTime:0.1060s ]
+SQL: INSERT INTO `basetwograde` (`basetwograde_selfscorea`,`basetwograde_selfscoreb`,`basetwograde_selfscorec`,`schoolyear_id`,`basetwolevelindex_id`,`baseonelevelindex_id`,`user_id`) VALUES ('2','2','2','2','2','6','1') [ RunTime:0.0640s ]
+SQL: INSERT INTO `basetwograde` (`basetwograde_selfscorea`,`basetwograde_selfscoreb`,`basetwograde_selfscorec`,`schoolyear_id`,`basetwolevelindex_id`,`baseonelevelindex_id`,`user_id`) VALUES ('2','2','2','2','3','7','1') [ RunTime:0.0340s ]
+SQL: INSERT INTO `basetwograde` (`basetwograde_selfscorea`,`basetwograde_selfscoreb`,`basetwograde_selfscorec`,`schoolyear_id`,`basetwolevelindex_id`,`baseonelevelindex_id`,`user_id`) VALUES ('2','2','2','2','4','8','1') [ RunTime:0.0270s ]
+SQL: INSERT INTO `basetwograde` (`basetwograde_selfscorea`,`basetwograde_selfscoreb`,`basetwograde_selfscorec`,`schoolyear_id`,`basetwolevelindex_id`,`baseonelevelindex_id`,`user_id`) VALUES ('2','2','2','2','5','9','1') [ RunTime:0.0350s ]
+SQL: INSERT INTO `basetwograde` (`basetwograde_selfscorea`,`basetwograde_selfscoreb`,`basetwograde_selfscorec`,`schoolyear_id`,`basetwolevelindex_id`,`baseonelevelindex_id`,`user_id`) VALUES ('2','2','2','2','5','10','1') [ RunTime:0.0280s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\wamp\www\evaluation_system\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\wamp\www\evaluation_system\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: savePath E:\wamp\www\evaluation_system\Application\Home\Controller\IndexController.class.php 第 146 行.
+NOTIC: [8] Undefined index: savePath E:\wamp\www\evaluation_system\Application\Home\Controller\IndexController.class.php 第 146 行.
+SQL: SHOW COLUMNS FROM `deveonelevelgrade` [ RunTime:0.0060s ]
+SQL: INSERT INTO `deveonelevelgrade` (`deveonelevelgrade_selfscore`,`deveonelevelgrade_reason`,`deveonelevelindex_id`,`deveonelevelgrade_url`,`schoolyear_id`,`user_id`) VALUES ('10','大金人奖','1','58c51700e2ea4.gif,58c51700e3674.gif','2','1') [ RunTime:0.0960s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-12T17:38:10+08:00 ] 127.0.0.1 /evaluation_system/index.php/home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `basetwolevelindex` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `basetwolevelindex` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `basetwolevelindex`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `deveonelevelindex` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `deveonelevelindex` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `deveonelevelindex`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-12T19:11:11+08:00 ] 127.0.0.1 /evaluation_system/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-12T19:11:11+08:00 ] 127.0.0.1 /evaluation_system/index.php/home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-12T19:11:15+08:00 ] 127.0.0.1 /evaluation_system/index.php/Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `user` WHERE `user_number` = 152011002 AND `user_password` = '123' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-03-12T19:11:16+08:00 ] 127.0.0.1 /evaluation_system/index.php/home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `basetwolevelindex` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `basetwolevelindex` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `basetwolevelindex`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `deveonelevelindex` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `deveonelevelindex` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `deveonelevelindex`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-12T19:45:44+08:00 ] 127.0.0.1 /evaluation_system/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-12T19:45:44+08:00 ] 127.0.0.1 /evaluation_system/index.php/home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-12T19:46:00+08:00 ] 127.0.0.1 /evaluation_system/index.php/Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `user` WHERE `user_number` = 152011002 AND `user_password` = '123' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-12T19:46:00+08:00 ] 127.0.0.1 /evaluation_system/index.php/home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `basetwolevelindex` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `basetwolevelindex` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `basetwolevelindex`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `deveonelevelindex` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `deveonelevelindex` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `deveonelevelindex`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+

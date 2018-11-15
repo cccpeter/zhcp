@@ -1,0 +1,102 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+	<link rel="stylesheet" href="/zhcp/Public/css/public.css" />
+	<script type="text/javascript" src="/zhcp/Public/js/jquery-1.7.2.min.js"></script>
+	<title></title>
+	<script type="text/javascript">
+	function addschoolyear(){
+		 var addschoolyear_name=$('#addyear').val();
+		 var url="<?php echo U('BackgroundAdmin/Admin/schoolyear');?>";
+		 if(addschoolyear_name!=""){
+		 	$.post(url,{yearname:addschoolyear_name},
+  			function(data){
+  				if(data==1){
+  					alert('添加成功，请刷新页面查看');
+  				}else if(data==-1){
+  					alert('添加失败，请检查你的网络连接设置！');
+  				}
+  			},
+  			"text");
+		 }else{
+		 	alert("请填写你要增加的学年");
+		 }
+	}
+	function changeschoolyear(){
+		 var change_name=$('#changeyear').val();
+		 // alert(change_name);
+		 var url="<?php echo U('BackgroundAdmin/Admin/changeschoolyear');?>";
+		 if(change_name!=""){
+		 	$.post(url,{changename:change_name},
+  			function(data){
+  				if(data==1){
+  					alert('设置当前学年成功，请刷新页面查看');
+  				}else{
+  					alert('设置失败，请检查你的网络连接设置！');
+  				}
+  			},
+  			"text");
+		 }else{
+		 	alert("请选择设置的学年");
+		 }
+	}
+	function delschoolyear(){
+		 var delyear=$('#delyear').val();
+		 // alert(change_name);
+		 var url="<?php echo U('BackgroundAdmin/Admin/delschoolyear');?>";
+		 if(delyear!=""){
+		 	$.post(url,{delyear:delyear},
+  			function(data){
+  				if(data==1){
+  					alert('删除当前学年成功，请刷新页面查看');
+  				}else{
+  					alert('删除失败，请检查你的网络连接设置！');
+  				}
+  			},
+  			"text");
+		 }else{
+		 	alert("请选择删除的学年");
+		 }
+	}
+	</script>
+</head>
+<body>
+	<form action="" method="post">
+		<table class="table">
+			<tr>
+				<td class="th" colspan="2">设置当前评测学年</td>
+			</tr>
+			<tr>
+				<td>当前学年</td>
+				<td><?php echo ($nowyear['schoolyear_name']); ?></td>
+			</tr>
+			<tr>
+				<td>添加学年</td>
+				<td>
+					<input type="text" id="addyear"/>
+					<input class="input_button" type="button" value="添加" onclick="addschoolyear();">
+				</td>
+			</tr>
+			<tr>
+				<td>更换当前学年</td>
+				<td>
+					<select id="changeyear"  style="width:155px">
+					<?php if(is_array($year)): foreach($year as $key=>$vo): ?><option value="<?php echo ($vo["schoolyear_id"]); ?>"><?php echo ($vo["schoolyear_name"]); ?></option><?php endforeach; endif; ?>
+					</select>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input class="input_button" type="button" value="修改" onclick="changeschoolyear();">
+				</td>
+			</tr>
+			<tr>
+				<td>删除学年</td>
+				<td>
+					<select id="delyear"  style="width:155px">
+					<?php if(is_array($year)): foreach($year as $key=>$vo): ?><option value="<?php echo ($vo["schoolyear_id"]); ?>"><?php echo ($vo["schoolyear_name"]); ?></option><?php endforeach; endif; ?>
+					</select>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input class="input_button" type="button" value="删除" onclick="delschoolyear();">
+				</td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>

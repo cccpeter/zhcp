@@ -1,0 +1,1691 @@
+[ 2017-04-04T14:08:35+08:00 ] 127.0.0.1 /evaluation_system/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-04T14:08:35+08:00 ] 127.0.0.1 /evaluation_system/index.php/home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-04T14:08:42+08:00 ] 127.0.0.1 /evaluation_system/index.php/home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-04-04T14:08:48+08:00 ] 127.0.0.1 /evaluation_system/index.php/Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `user` WHERE `user_number` = 1 AND `user_password` = '1234' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-04T14:08:52+08:00 ] 127.0.0.1 /evaluation_system/index.php/Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `user` WHERE `user_number` = 152011002 AND `user_password` = '123' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-04-04T14:08:52+08:00 ] 127.0.0.1 /evaluation_system/index.php/home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `schoolyear` [ RunTime:0.0970s ]
+SQL: SELECT `schoolyear_id` FROM `schoolyear` WHERE `schoolyear_nowyear` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `basetwograde` [ RunTime:0.1190s ]
+SQL: SELECT * FROM `basetwograde` WHERE `user_id` = 1 AND `schoolyear_id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `basetwolevelindex` [ RunTime:0.0390s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `basetwolevelindex` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `basetwolevelindex`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `deveonelevelindex` [ RunTime:0.0210s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `deveonelevelindex` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `deveonelevelindex`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-04T14:08:56+08:00 ] 127.0.0.1 /evaluation_system/index.php/Home/Query/query.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `schoolyear` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `schoolyear` WHERE `schoolyear_nowyear` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `basetwograde` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `basetwograde` WHERE `user_id` = 1 AND `schoolyear_id` = 2  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `deveonelevelgrade` [ RunTime:0.0450s ]
+SQL: SELECT * FROM `deveonelevelgrade` WHERE `user_id` = 1 AND `schoolyear_id` = 2  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `basetwograde` WHERE `user_id` = 1 AND `schoolyear_id` = 2  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `deveonelevelgrade` WHERE `user_id` = 1 AND `schoolyear_id` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `basetwolevelindex` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `basetwolevelindex` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `basetwolevelindex`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `deveonelevelindex` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `deveonelevelindex` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `deveonelevelindex`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-04T14:09:00+08:00 ] 127.0.0.1 /evaluation_system/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `schoolyear` [ RunTime:0.0030s ]
+SQL: SELECT `schoolyear_id` FROM `schoolyear` WHERE `schoolyear_nowyear` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `basetwograde` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `basetwograde` WHERE `user_id` = 1 AND `schoolyear_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `basetwolevelindex` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `basetwolevelindex` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `basetwolevelindex`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `deveonelevelindex` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `deveonelevelindex` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `deveonelevelindex`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-04T14:09:05+08:00 ] 127.0.0.1 /evaluation_system/index.php/Home/Index/changepw.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-04T14:09:19+08:00 ] 127.0.0.1 /evaluation_system/index.php/Home/Index/changepw.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `user` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `user` SET `user_password`='1234' WHERE `user_id` = 1 [ RunTime:0.0550s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-04T14:09:26+08:00 ] 127.0.0.1 /evaluation_system/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `schoolyear` [ RunTime:0.0030s ]
+SQL: SELECT `schoolyear_id` FROM `schoolyear` WHERE `schoolyear_nowyear` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `basetwograde` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `basetwograde` WHERE `user_id` = 1 AND `schoolyear_id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `basetwolevelindex` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `basetwolevelindex` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `basetwolevelindex`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `deveonelevelindex` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `deveonelevelindex` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `deveonelevelindex`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-04T14:09:31+08:00 ] 127.0.0.1 /evaluation_system/index.php/Home/Login/loginout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-04T14:09:32+08:00 ] 127.0.0.1 /evaluation_system/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-04T14:09:32+08:00 ] 127.0.0.1 /evaluation_system/index.php/home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-04T14:22:22+08:00 ] 127.0.0.1 /evaluation_system/Home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-04T14:22:22+08:00 ] 127.0.0.1 /evaluation_system/index.php/home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-04T14:22:27+08:00 ] 127.0.0.1 /evaluation_system/index.php/home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-04-04T14:22:30+08:00 ] 127.0.0.1 /evaluation_system/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-04-04T14:22:30+08:00 ] 127.0.0.1 /evaluation_system/index.php/home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-04T14:22:35+08:00 ] 127.0.0.1 /evaluation_system/Home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-04-04T14:22:35+08:00 ] 127.0.0.1 /evaluation_system/index.php/home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-04T14:22:39+08:00 ] 127.0.0.1 /evaluation_system/index.php/Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `user` WHERE `user_number` = 1 AND `user_password` = '1234' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-04T14:22:46+08:00 ] 127.0.0.1 /evaluation_system/index.php/Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `user` WHERE `user_number` = 152011000 AND `user_password` = '123' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-04T14:22:46+08:00 ] 127.0.0.1 /evaluation_system/index.php/home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `schoolyear` [ RunTime:0.0030s ]
+SQL: SELECT `schoolyear_id` FROM `schoolyear` WHERE `schoolyear_nowyear` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `basetwograde` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `basetwograde` WHERE `user_id` = 2 AND `schoolyear_id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `basetwolevelindex` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `basetwolevelindex` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `basetwolevelindex`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `deveonelevelindex` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `deveonelevelindex` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `deveonelevelindex`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-04-04T14:22:50+08:00 ] 127.0.0.1 /evaluation_system/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `schoolyear` [ RunTime:0.0040s ]
+SQL: SELECT `schoolyear_id` FROM `schoolyear` WHERE `schoolyear_nowyear` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `basetwograde` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `basetwograde` WHERE `user_id` = 2 AND `schoolyear_id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `basetwolevelindex` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `basetwolevelindex` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `basetwolevelindex`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `deveonelevelindex` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `deveonelevelindex` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `deveonelevelindex`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-04T14:41:11+08:00 ] 127.0.0.1 /evaluation_system/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `schoolyear` [ RunTime:0.0050s ]
+SQL: SELECT `schoolyear_id` FROM `schoolyear` WHERE `schoolyear_nowyear` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `basetwograde` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `basetwograde` WHERE `user_id` = 2 AND `schoolyear_id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `basetwolevelindex` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `basetwolevelindex` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `basetwolevelindex`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `deveonelevelindex` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `deveonelevelindex` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `deveonelevelindex`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-04-04T14:41:14+08:00 ] 127.0.0.1 /evaluation_system/index.php/Home/Login/loginout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-04-04T14:41:15+08:00 ] 127.0.0.1 /evaluation_system/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-04T14:41:15+08:00 ] 127.0.0.1 /evaluation_system/index.php/home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-04T14:41:21+08:00 ] 127.0.0.1 /evaluation_system/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-04-04T14:41:21+08:00 ] 127.0.0.1 /evaluation_system/index.php/home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-04T14:41:25+08:00 ] 127.0.0.1 /evaluation_system/index.php/Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `user` WHERE `user_number` = 1 AND `user_password` = '1234' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-04T14:41:31+08:00 ] 127.0.0.1 /evaluation_system/index.php/Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `user` WHERE `user_number` = 152011000 AND `user_password` = '123' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-04-04T14:41:31+08:00 ] 127.0.0.1 /evaluation_system/index.php/home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `schoolyear` [ RunTime:0.0060s ]
+SQL: SELECT `schoolyear_id` FROM `schoolyear` WHERE `schoolyear_nowyear` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `basetwograde` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `basetwograde` WHERE `user_id` = 2 AND `schoolyear_id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `basetwolevelindex` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `basetwolevelindex` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `basetwolevelindex`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `deveonelevelindex` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `deveonelevelindex` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `deveonelevelindex`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-04-04T14:49:31+08:00 ] 127.0.0.1 /evaluation_system/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `schoolyear` [ RunTime:0.0030s ]
+SQL: SELECT `schoolyear_id` FROM `schoolyear` WHERE `schoolyear_nowyear` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `basetwograde` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `basetwograde` WHERE `user_id` = 2 AND `schoolyear_id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `basetwolevelindex` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `basetwolevelindex` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `basetwolevelindex`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `deveonelevelindex` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `deveonelevelindex` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `deveonelevelindex`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-04T14:58:35+08:00 ] 127.0.0.1 /evaluation_system/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-04-04T14:58:35+08:00 ] 127.0.0.1 /evaluation_system/index.php/home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-04T14:58:41+08:00 ] 127.0.0.1 /evaluation_system/index.php/Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `user` WHERE `user_number` = 152011000 AND `user_password` = '123' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-04-04T14:58:41+08:00 ] 127.0.0.1 /evaluation_system/index.php/home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `schoolyear` [ RunTime:0.0050s ]
+SQL: SELECT `schoolyear_id` FROM `schoolyear` WHERE `schoolyear_nowyear` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `basetwograde` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `basetwograde` WHERE `user_id` = 2 AND `schoolyear_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `basetwolevelindex` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `basetwolevelindex` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `basetwolevelindex`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `deveonelevelindex` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `deveonelevelindex` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `deveonelevelindex`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-04T14:58:43+08:00 ] 127.0.0.1 /evaluation_system/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `schoolyear` [ RunTime:0.0050s ]
+SQL: SELECT `schoolyear_id` FROM `schoolyear` WHERE `schoolyear_nowyear` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `basetwograde` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `basetwograde` WHERE `user_id` = 2 AND `schoolyear_id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `basetwolevelindex` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `basetwolevelindex` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `basetwolevelindex`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `deveonelevelindex` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `deveonelevelindex` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `deveonelevelindex`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-04T14:58:44+08:00 ] 127.0.0.1 /evaluation_system/index.php/Home/Query/query.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `schoolyear` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `schoolyear` WHERE `schoolyear_nowyear` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `basetwograde` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `basetwograde` WHERE `user_id` = 2 AND `schoolyear_id` = 2  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `deveonelevelgrade` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `deveonelevelgrade` WHERE `user_id` = 2 AND `schoolyear_id` = 2  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `basetwograde` WHERE `user_id` = 2 AND `schoolyear_id` = 2  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `deveonelevelgrade` WHERE `user_id` = 2 AND `schoolyear_id` = 2  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `basetwolevelindex` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `basetwolevelindex` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `basetwolevelindex`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `deveonelevelindex` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `deveonelevelindex` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `deveonelevelindex`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-04T14:58:45+08:00 ] 127.0.0.1 /evaluation_system/index.php/Home/Index/changepw.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-04-04T14:58:51+08:00 ] 127.0.0.1 /evaluation_system/index.php/Home/Index/changepw.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `user` WHERE `user_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `user` SET `user_password`='1234' WHERE `user_id` = 2 [ RunTime:0.0620s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-04-04T14:58:54+08:00 ] 127.0.0.1 /evaluation_system/index.php/Home/Login/loginout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-04T14:58:55+08:00 ] 127.0.0.1 /evaluation_system/index.php/Home/Index/changepw.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-04T14:58:55+08:00 ] 127.0.0.1 /evaluation_system/index.php/home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-04T16:26:01+08:00 ] 127.0.0.1 /evaluation_system/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-04T16:26:01+08:00 ] 127.0.0.1 /evaluation_system/index.php/home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-04-04T16:26:08+08:00 ] 127.0.0.1 /evaluation_system/index.php/Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `user` WHERE `user_number` = 152011003 AND `user_password` = '123' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-04T16:26:19+08:00 ] 127.0.0.1 /evaluation_system/index.php/Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `user` WHERE `user_number` = 152011003 AND `user_password` = ' 	152011000090816' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-04T16:26:38+08:00 ] 127.0.0.1 /evaluation_system/index.php/Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `user` WHERE `user_number` = 152011003 AND `user_password` = '152011000090816' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-04T16:26:38+08:00 ] 127.0.0.1 /evaluation_system/index.php/home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `schoolyear` [ RunTime:0.0030s ]
+SQL: SELECT `schoolyear_id` FROM `schoolyear` WHERE `schoolyear_nowyear` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `basetwograde` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `basetwograde` WHERE `user_id` = 6 AND `schoolyear_id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `basetwolevelindex` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `basetwolevelindex` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `basetwolevelindex`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `deveonelevelindex` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `deveonelevelindex` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `deveonelevelindex`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-04T16:28:01+08:00 ] 127.0.0.1 /evaluation_system/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `schoolyear` [ RunTime:0.0040s ]
+SQL: SELECT `schoolyear_id` FROM `schoolyear` WHERE `schoolyear_nowyear` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `basetwograde` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `basetwograde` WHERE `user_id` = 6 AND `schoolyear_id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\wamp\www\evaluation_system\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\wamp\www\evaluation_system\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\wamp\www\evaluation_system\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\wamp\www\evaluation_system\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: savePath E:\wamp\www\evaluation_system\Application\Home\Controller\IndexController.class.php 第 87 行.
+NOTIC: [8] Undefined index: savePath E:\wamp\www\evaluation_system\Application\Home\Controller\IndexController.class.php 第 89 行.
+NOTIC: [8] Undefined index: savePath E:\wamp\www\evaluation_system\Application\Home\Controller\IndexController.class.php 第 87 行.
+NOTIC: [8] Undefined index: savePath E:\wamp\www\evaluation_system\Application\Home\Controller\IndexController.class.php 第 89 行.
+NOTIC: [8] Undefined index: savePath E:\wamp\www\evaluation_system\Application\Home\Controller\IndexController.class.php 第 87 行.
+NOTIC: [8] Undefined index: savePath E:\wamp\www\evaluation_system\Application\Home\Controller\IndexController.class.php 第 93 行.
+NOTIC: [8] Undefined index: savePath E:\wamp\www\evaluation_system\Application\Home\Controller\IndexController.class.php 第 87 行.
+NOTIC: [8] Undefined index: savePath E:\wamp\www\evaluation_system\Application\Home\Controller\IndexController.class.php 第 97 行.
+NOTIC: [8] Undefined variable: content4 E:\wamp\www\evaluation_system\Application\Home\Controller\IndexController.class.php 第 116 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\wamp\www\evaluation_system\Application\Home\Controller\IndexController.class.php 第 116 行.
+NOTIC: [8] Undefined variable: content5 E:\wamp\www\evaluation_system\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\wamp\www\evaluation_system\Application\Home\Controller\IndexController.class.php 第 117 行.
+SQL: INSERT INTO `basetwograde` (`basetwograde_selfscorea`,`basetwograde_selfscoreb`,`basetwograde_selfscorec`,`schoolyear_id`,`basetwolevelindex_id`,`baseonelevelindex_id`,`user_id`) VALUES ('2','2','2','2','1','1','6') [ RunTime:0.1540s ]
+SQL: INSERT INTO `basetwograde` (`basetwograde_selfscorea`,`basetwograde_selfscoreb`,`basetwograde_selfscorec`,`schoolyear_id`,`basetwolevelindex_id`,`baseonelevelindex_id`,`user_id`) VALUES ('2','2','2','2','1','2','6') [ RunTime:0.0490s ]
+SQL: INSERT INTO `basetwograde` (`basetwograde_selfscorea`,`basetwograde_selfscoreb`,`basetwograde_selfscorec`,`schoolyear_id`,`basetwolevelindex_id`,`baseonelevelindex_id`,`user_id`) VALUES ('2','2','2','2','1','3','6') [ RunTime:0.3310s ]
+SQL: INSERT INTO `basetwograde` (`basetwograde_selfscorea`,`basetwograde_selfscoreb`,`basetwograde_selfscorec`,`schoolyear_id`,`basetwolevelindex_id`,`baseonelevelindex_id`,`user_id`) VALUES ('2','2','2','2','2','4','6') [ RunTime:0.0430s ]
+SQL: INSERT INTO `basetwograde` (`basetwograde_selfscorea`,`basetwograde_selfscoreb`,`basetwograde_selfscorec`,`schoolyear_id`,`basetwolevelindex_id`,`baseonelevelindex_id`,`user_id`) VALUES ('2','2','2','2','2','5','6') [ RunTime:0.0550s ]
+SQL: INSERT INTO `basetwograde` (`basetwograde_selfscorea`,`basetwograde_selfscoreb`,`basetwograde_selfscorec`,`schoolyear_id`,`basetwolevelindex_id`,`baseonelevelindex_id`,`user_id`) VALUES ('2','2','2','2','2','6','6') [ RunTime:0.1430s ]
+SQL: INSERT INTO `basetwograde` (`basetwograde_selfscorea`,`basetwograde_selfscoreb`,`basetwograde_selfscorec`,`schoolyear_id`,`basetwolevelindex_id`,`baseonelevelindex_id`,`user_id`) VALUES ('2','2','2','2','3','7','6') [ RunTime:0.0290s ]
+SQL: INSERT INTO `basetwograde` (`basetwograde_selfscorea`,`basetwograde_selfscoreb`,`basetwograde_selfscorec`,`schoolyear_id`,`basetwolevelindex_id`,`baseonelevelindex_id`,`user_id`) VALUES ('2','2','2','2','4','8','6') [ RunTime:0.0230s ]
+SQL: INSERT INTO `basetwograde` (`basetwograde_selfscorea`,`basetwograde_selfscoreb`,`basetwograde_selfscorec`,`schoolyear_id`,`basetwolevelindex_id`,`baseonelevelindex_id`,`user_id`) VALUES ('2','2','2','2','5','9','6') [ RunTime:0.0280s ]
+SQL: INSERT INTO `basetwograde` (`basetwograde_selfscorea`,`basetwograde_selfscoreb`,`basetwograde_selfscorec`,`schoolyear_id`,`basetwolevelindex_id`,`baseonelevelindex_id`,`user_id`) VALUES ('2','2','2','2','5','10','6') [ RunTime:0.0240s ]
+SQL: SHOW COLUMNS FROM `deveonelevelgrade` [ RunTime:0.0030s ]
+SQL: INSERT INTO `deveonelevelgrade` (`deveonelevelgrade_selfscore`,`deveonelevelgrade_reason`,`deveonelevelindex_id`,`deveonelevelgrade_url`,`schoolyear_id`,`user_id`) VALUES ('2','shuai,e','1','58e359105bf07.jpg,58e359105d28f.jpg,','2','6') [ RunTime:0.0290s ]
+SQL: INSERT INTO `deveonelevelgrade` (`deveonelevelgrade_selfscore`,`deveonelevelgrade_reason`,`deveonelevelindex_id`,`deveonelevelgrade_url`,`schoolyear_id`,`user_id`) VALUES ('2','123','2','58e359105e617.jpg,','2','6') [ RunTime:0.0190s ]
+SQL: INSERT INTO `deveonelevelgrade` (`deveonelevelgrade_selfscore`,`deveonelevelgrade_reason`,`deveonelevelindex_id`,`deveonelevelgrade_url`,`schoolyear_id`,`user_id`) VALUES ('2','124125','3','58e359105f99f.jpg,','2','6') [ RunTime:0.0430s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-04T16:28:02+08:00 ] 127.0.0.1 /evaluation_system/index.php/home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `schoolyear` [ RunTime:0.0040s ]
+SQL: SELECT `schoolyear_id` FROM `schoolyear` WHERE `schoolyear_nowyear` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `basetwograde` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `basetwograde` WHERE `user_id` = 6 AND `schoolyear_id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `basetwolevelindex` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `basetwolevelindex` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `basetwolevelindex`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `deveonelevelindex` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `deveonelevelindex` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `deveonelevelindex`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-04T16:28:04+08:00 ] 127.0.0.1 /evaluation_system/index.php/Home/Query/query.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `schoolyear` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `schoolyear` WHERE `schoolyear_nowyear` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `basetwograde` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `basetwograde` WHERE `user_id` = 6 AND `schoolyear_id` = 2  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `deveonelevelgrade` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `deveonelevelgrade` WHERE `user_id` = 6 AND `schoolyear_id` = 2  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `basetwograde` WHERE `user_id` = 6 AND `schoolyear_id` = 2  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `deveonelevelgrade` WHERE `user_id` = 6 AND `schoolyear_id` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `basetwolevelindex` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `basetwolevelindex` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `basetwolevelindex`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `deveonelevelindex` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `deveonelevelindex` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `deveonelevelindex`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-04T16:36:21+08:00 ] 127.0.0.1 /evaluation_system/index.php/Home/Query/query.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `schoolyear` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `schoolyear` WHERE `schoolyear_nowyear` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `basetwograde` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `basetwograde` WHERE `user_id` = 6 AND `schoolyear_id` = 2  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `deveonelevelgrade` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `deveonelevelgrade` WHERE `user_id` = 6 AND `schoolyear_id` = 2  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `basetwograde` WHERE `user_id` = 6 AND `schoolyear_id` = 2  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `deveonelevelgrade` WHERE `user_id` = 6 AND `schoolyear_id` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `basetwolevelindex` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `basetwolevelindex` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `basetwolevelindex`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `deveonelevelindex` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `deveonelevelindex` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `deveonelevelindex`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-04-04T16:36:25+08:00 ] 127.0.0.1 /evaluation_system/index.php/Home/Login/loginout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-04T16:36:26+08:00 ] 127.0.0.1 /evaluation_system/index.php/Home/Query/query.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-04-04T16:36:26+08:00 ] 127.0.0.1 /evaluation_system/index.php/home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-04T16:36:31+08:00 ] 127.0.0.1 /evaluation_system/index.php/Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `user` WHERE `user_number` = 152011004 AND `user_password` = '152011000090816' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-04-04T16:36:32+08:00 ] 127.0.0.1 /evaluation_system/index.php/home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `schoolyear` [ RunTime:0.0030s ]
+SQL: SELECT `schoolyear_id` FROM `schoolyear` WHERE `schoolyear_nowyear` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `basetwograde` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `basetwograde` WHERE `user_id` = 7 AND `schoolyear_id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `basetwolevelindex` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `basetwolevelindex` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `basetwolevelindex`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `deveonelevelindex` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `deveonelevelindex` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `deveonelevelindex`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-04T16:37:06+08:00 ] 127.0.0.1 /evaluation_system/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `schoolyear` [ RunTime:0.0040s ]
+SQL: SELECT `schoolyear_id` FROM `schoolyear` WHERE `schoolyear_nowyear` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `basetwograde` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `basetwograde` WHERE `user_id` = 7 AND `schoolyear_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\wamp\www\evaluation_system\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\wamp\www\evaluation_system\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\wamp\www\evaluation_system\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\wamp\www\evaluation_system\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: savePath E:\wamp\www\evaluation_system\Application\Home\Controller\IndexController.class.php 第 87 行.
+NOTIC: [8] Undefined index: savePath E:\wamp\www\evaluation_system\Application\Home\Controller\IndexController.class.php 第 89 行.
+NOTIC: [8] Undefined index: savePath E:\wamp\www\evaluation_system\Application\Home\Controller\IndexController.class.php 第 87 行.
+NOTIC: [8] Undefined index: savePath E:\wamp\www\evaluation_system\Application\Home\Controller\IndexController.class.php 第 93 行.
+NOTIC: [8] Undefined index: savePath E:\wamp\www\evaluation_system\Application\Home\Controller\IndexController.class.php 第 87 行.
+NOTIC: [8] Undefined index: savePath E:\wamp\www\evaluation_system\Application\Home\Controller\IndexController.class.php 第 97 行.
+NOTIC: [8] Undefined index: savePath E:\wamp\www\evaluation_system\Application\Home\Controller\IndexController.class.php 第 87 行.
+NOTIC: [8] Undefined index: savePath E:\wamp\www\evaluation_system\Application\Home\Controller\IndexController.class.php 第 97 行.
+NOTIC: [8] Undefined variable: content4 E:\wamp\www\evaluation_system\Application\Home\Controller\IndexController.class.php 第 116 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\wamp\www\evaluation_system\Application\Home\Controller\IndexController.class.php 第 116 行.
+NOTIC: [8] Undefined variable: content5 E:\wamp\www\evaluation_system\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\wamp\www\evaluation_system\Application\Home\Controller\IndexController.class.php 第 117 行.
+SQL: INSERT INTO `basetwograde` (`basetwograde_selfscorea`,`basetwograde_selfscoreb`,`basetwograde_selfscorec`,`schoolyear_id`,`basetwolevelindex_id`,`baseonelevelindex_id`,`user_id`) VALUES ('2','2','2','2','1','1','7') [ RunTime:0.0770s ]
+SQL: INSERT INTO `basetwograde` (`basetwograde_selfscorea`,`basetwograde_selfscoreb`,`basetwograde_selfscorec`,`schoolyear_id`,`basetwolevelindex_id`,`baseonelevelindex_id`,`user_id`) VALUES ('2','2','2','2','1','2','7') [ RunTime:0.0970s ]
+SQL: INSERT INTO `basetwograde` (`basetwograde_selfscorea`,`basetwograde_selfscoreb`,`basetwograde_selfscorec`,`schoolyear_id`,`basetwolevelindex_id`,`baseonelevelindex_id`,`user_id`) VALUES ('2','2','2','2','1','3','7') [ RunTime:0.0220s ]
+SQL: INSERT INTO `basetwograde` (`basetwograde_selfscorea`,`basetwograde_selfscoreb`,`basetwograde_selfscorec`,`schoolyear_id`,`basetwolevelindex_id`,`baseonelevelindex_id`,`user_id`) VALUES ('2','2','2','2','2','4','7') [ RunTime:0.0290s ]
+SQL: INSERT INTO `basetwograde` (`basetwograde_selfscorea`,`basetwograde_selfscoreb`,`basetwograde_selfscorec`,`schoolyear_id`,`basetwolevelindex_id`,`baseonelevelindex_id`,`user_id`) VALUES ('2','2','2','2','2','5','7') [ RunTime:0.0450s ]
+SQL: INSERT INTO `basetwograde` (`basetwograde_selfscorea`,`basetwograde_selfscoreb`,`basetwograde_selfscorec`,`schoolyear_id`,`basetwolevelindex_id`,`baseonelevelindex_id`,`user_id`) VALUES ('2','2','2','2','2','6','7') [ RunTime:0.0310s ]
+SQL: INSERT INTO `basetwograde` (`basetwograde_selfscorea`,`basetwograde_selfscoreb`,`basetwograde_selfscorec`,`schoolyear_id`,`basetwolevelindex_id`,`baseonelevelindex_id`,`user_id`) VALUES ('2','2','2','2','3','7','7') [ RunTime:0.0220s ]
+SQL: INSERT INTO `basetwograde` (`basetwograde_selfscorea`,`basetwograde_selfscoreb`,`basetwograde_selfscorec`,`schoolyear_id`,`basetwolevelindex_id`,`baseonelevelindex_id`,`user_id`) VALUES ('2','2','2','2','4','8','7') [ RunTime:0.0300s ]
+SQL: INSERT INTO `basetwograde` (`basetwograde_selfscorea`,`basetwograde_selfscoreb`,`basetwograde_selfscorec`,`schoolyear_id`,`basetwolevelindex_id`,`baseonelevelindex_id`,`user_id`) VALUES ('2','2','2','2','5','9','7') [ RunTime:0.0230s ]
+SQL: INSERT INTO `basetwograde` (`basetwograde_selfscorea`,`basetwograde_selfscoreb`,`basetwograde_selfscorec`,`schoolyear_id`,`basetwolevelindex_id`,`baseonelevelindex_id`,`user_id`) VALUES ('2','2','2','2','5','10','7') [ RunTime:0.0300s ]
+SQL: SHOW COLUMNS FROM `deveonelevelgrade` [ RunTime:0.0040s ]
+SQL: INSERT INTO `deveonelevelgrade` (`deveonelevelgrade_selfscore`,`deveonelevelgrade_reason`,`deveonelevelindex_id`,`deveonelevelgrade_url`,`schoolyear_id`,`user_id`) VALUES ('2','131','1','58e35b3200ecf.jpg,','2','7') [ RunTime:0.0270s ]
+SQL: INSERT INTO `deveonelevelgrade` (`deveonelevelgrade_selfscore`,`deveonelevelgrade_reason`,`deveonelevelindex_id`,`deveonelevelgrade_url`,`schoolyear_id`,`user_id`) VALUES ('3','1241','2','58e35b3202257.jpg,','2','7') [ RunTime:0.0410s ]
+SQL: INSERT INTO `deveonelevelgrade` (`deveonelevelgrade_selfscore`,`deveonelevelgrade_reason`,`deveonelevelindex_id`,`deveonelevelgrade_url`,`schoolyear_id`,`user_id`) VALUES ('5','215,125','3','58e35b32035df.jpg,58e35b3204d50.jpg,','2','7') [ RunTime:0.0240s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-04-04T16:37:07+08:00 ] 127.0.0.1 /evaluation_system/index.php/home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `schoolyear` [ RunTime:0.0030s ]
+SQL: SELECT `schoolyear_id` FROM `schoolyear` WHERE `schoolyear_nowyear` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `basetwograde` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `basetwograde` WHERE `user_id` = 7 AND `schoolyear_id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `basetwolevelindex` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `basetwolevelindex` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `basetwolevelindex`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `deveonelevelindex` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `deveonelevelindex` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `deveonelevelindex`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-04-04T17:38:45+08:00 ] 127.0.0.1 /evaluation_system/index.php/Home/Login/loginout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.004000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.005000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-04T17:38:46+08:00 ] 127.0.0.1 /evaluation_system/index.php/home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-04T17:38:46+08:00 ] 127.0.0.1 /evaluation_system/index.php/home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-04T17:38:51+08:00 ] 127.0.0.1 /evaluation_system/index.php/Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `user` WHERE `user_number` = 152011002 AND `user_password` = '123' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-04T17:39:12+08:00 ] 127.0.0.1 /evaluation_system/index.php/Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `user` WHERE `user_number` = 152011002 AND `user_password` = '123' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-04T17:39:23+08:00 ] 127.0.0.1 /evaluation_system/index.php/Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `user` WHERE `user_number` = 152011002 AND `user_password` = '152011000090816' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-04T17:39:23+08:00 ] 127.0.0.1 /evaluation_system/index.php/home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `schoolyear` [ RunTime:0.0050s ]
+SQL: SELECT `schoolyear_id` FROM `schoolyear` WHERE `schoolyear_nowyear` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `basetwograde` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `basetwograde` WHERE `user_id` = 5 AND `schoolyear_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `basetwolevelindex` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `basetwolevelindex` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `basetwolevelindex`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `deveonelevelindex` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `deveonelevelindex` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `deveonelevelindex`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-04-04T17:39:53+08:00 ] 127.0.0.1 /evaluation_system/index.php/Home/Login/loginout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-04-04T17:39:54+08:00 ] 127.0.0.1 /evaluation_system/index.php/home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-04-04T17:39:54+08:00 ] 127.0.0.1 /evaluation_system/index.php/home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-04-04T17:39:58+08:00 ] 127.0.0.1 /evaluation_system/index.php/Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `user` WHERE `user_number` = 152011002 AND `user_password` = '1234' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-04T17:39:58+08:00 ] 127.0.0.1 /evaluation_system/index.php/home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `schoolyear` [ RunTime:0.0070s ]
+SQL: SELECT `schoolyear_id` FROM `schoolyear` WHERE `schoolyear_nowyear` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `basetwograde` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `basetwograde` WHERE `user_id` = 1 AND `schoolyear_id` = 2 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `basetwolevelindex` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `basetwolevelindex` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `basetwolevelindex`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `deveonelevelindex` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `deveonelevelindex` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `deveonelevelindex`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-04-04T17:40:29+08:00 ] 127.0.0.1 /evaluation_system/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `schoolyear` [ RunTime:0.0060s ]
+SQL: SELECT `schoolyear_id` FROM `schoolyear` WHERE `schoolyear_nowyear` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `basetwograde` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `basetwograde` WHERE `user_id` = 1 AND `schoolyear_id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\wamp\www\evaluation_system\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\wamp\www\evaluation_system\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\wamp\www\evaluation_system\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: savePath E:\wamp\www\evaluation_system\Application\Home\Controller\IndexController.class.php 第 344 行.
+NOTIC: [8] Undefined index: savePath E:\wamp\www\evaluation_system\Application\Home\Controller\IndexController.class.php 第 346 行.
+NOTIC: [8] Undefined index: savePath E:\wamp\www\evaluation_system\Application\Home\Controller\IndexController.class.php 第 344 行.
+NOTIC: [8] Undefined index: savePath E:\wamp\www\evaluation_system\Application\Home\Controller\IndexController.class.php 第 350 行.
+NOTIC: [8] Undefined index: savePath E:\wamp\www\evaluation_system\Application\Home\Controller\IndexController.class.php 第 344 行.
+NOTIC: [8] Undefined index: savePath E:\wamp\www\evaluation_system\Application\Home\Controller\IndexController.class.php 第 354 行.
+NOTIC: [8] Undefined variable: content4 E:\wamp\www\evaluation_system\Application\Home\Controller\IndexController.class.php 第 373 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\wamp\www\evaluation_system\Application\Home\Controller\IndexController.class.php 第 373 行.
+NOTIC: [8] Undefined variable: content5 E:\wamp\www\evaluation_system\Application\Home\Controller\IndexController.class.php 第 374 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\wamp\www\evaluation_system\Application\Home\Controller\IndexController.class.php 第 374 行.
+SQL: UPDATE `basetwograde` SET `basetwograde_selfscorea`='1',`basetwograde_selfscoreb`='1',`basetwograde_selfscorec`='1' WHERE `schoolyear_id` = 2 AND `basetwolevelindex_id` = 1 AND `baseonelevelindex_id` = 1 AND `user_id` = 1 [ RunTime:0.0890s ]
+SQL: UPDATE `basetwograde` SET `basetwograde_selfscorea`='1',`basetwograde_selfscoreb`='1',`basetwograde_selfscorec`='1' WHERE `schoolyear_id` = 2 AND `basetwolevelindex_id` = 1 AND `baseonelevelindex_id` = 2 AND `user_id` = 1 [ RunTime:0.0380s ]
+SQL: UPDATE `basetwograde` SET `basetwograde_selfscorea`='1',`basetwograde_selfscoreb`='1',`basetwograde_selfscorec`='1' WHERE `schoolyear_id` = 2 AND `basetwolevelindex_id` = 1 AND `baseonelevelindex_id` = 3 AND `user_id` = 1 [ RunTime:0.0310s ]
+SQL: UPDATE `basetwograde` SET `basetwograde_selfscorea`='1',`basetwograde_selfscoreb`='1',`basetwograde_selfscorec`='1' WHERE `schoolyear_id` = 2 AND `basetwolevelindex_id` = 2 AND `baseonelevelindex_id` = 4 AND `user_id` = 1 [ RunTime:0.0200s ]
+SQL: UPDATE `basetwograde` SET `basetwograde_selfscorea`='1',`basetwograde_selfscoreb`='1',`basetwograde_selfscorec`='1' WHERE `schoolyear_id` = 2 AND `basetwolevelindex_id` = 2 AND `baseonelevelindex_id` = 5 AND `user_id` = 1 [ RunTime:0.1550s ]
+SQL: UPDATE `basetwograde` SET `basetwograde_selfscorea`='1',`basetwograde_selfscoreb`='1',`basetwograde_selfscorec`='1' WHERE `schoolyear_id` = 2 AND `basetwolevelindex_id` = 2 AND `baseonelevelindex_id` = 6 AND `user_id` = 1 [ RunTime:0.0580s ]
+SQL: UPDATE `basetwograde` SET `basetwograde_selfscorea`='1',`basetwograde_selfscoreb`='1',`basetwograde_selfscorec`='1' WHERE `schoolyear_id` = 2 AND `basetwolevelindex_id` = 3 AND `baseonelevelindex_id` = 7 AND `user_id` = 1 [ RunTime:0.0250s ]
+SQL: UPDATE `basetwograde` SET `basetwograde_selfscorea`='1',`basetwograde_selfscoreb`='1',`basetwograde_selfscorec`='1' WHERE `schoolyear_id` = 2 AND `basetwolevelindex_id` = 4 AND `baseonelevelindex_id` = 8 AND `user_id` = 1 [ RunTime:0.0320s ]
+SQL: UPDATE `basetwograde` SET `basetwograde_selfscorea`='1',`basetwograde_selfscoreb`='1',`basetwograde_selfscorec`='1' WHERE `schoolyear_id` = 2 AND `basetwolevelindex_id` = 5 AND `baseonelevelindex_id` = 9 AND `user_id` = 1 [ RunTime:0.0190s ]
+SQL: UPDATE `basetwograde` SET `basetwograde_selfscorea`='1',`basetwograde_selfscoreb`='1',`basetwograde_selfscorec`='1' WHERE `schoolyear_id` = 2 AND `basetwolevelindex_id` = 5 AND `baseonelevelindex_id` = 10 AND `user_id` = 1 [ RunTime:0.1200s ]
+SQL: SHOW COLUMNS FROM `deveonelevelgrade` [ RunTime:0.0040s ]
+SQL: SELECT `deveonelevelgrade_id` FROM `deveonelevelgrade` WHERE `deveonelevelindex_id` = 1 AND `schoolyear_id` = 2 AND `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `deveonelevelgrade` SET `deveonelevelgrade_selfscore`='1',`deveonelevelgrade_reason`='32',`deveonelevelgrade_url`='58e36a0d2bc78.jpg,' WHERE `deveonelevelgrade_id` = 23 [ RunTime:0.0520s ]
+SQL: SELECT `deveonelevelgrade_id` FROM `deveonelevelgrade` WHERE `deveonelevelindex_id` = 2 AND `schoolyear_id` = 2 AND `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `deveonelevelgrade` SET `deveonelevelgrade_selfscore`='3',`deveonelevelgrade_reason`='42',`deveonelevelgrade_url`='58e36a0d2d7d0.jpg,' WHERE `deveonelevelgrade_id` = 24 [ RunTime:0.0360s ]
+SQL: SELECT `deveonelevelgrade_id` FROM `deveonelevelgrade` WHERE `deveonelevelindex_id` = 3 AND `schoolyear_id` = 2 AND `user_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `deveonelevelgrade` (`deveonelevelgrade_selfscore`,`deveonelevelgrade_reason`,`deveonelevelgrade_url`,`deveonelevelindex_id`,`schoolyear_id`,`user_id`) VALUES ('32','214','58e36a0d2e770.jpg,','3','2','1') [ RunTime:0.0420s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-04T17:40:31+08:00 ] 127.0.0.1 /evaluation_system/index.php/home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `schoolyear` [ RunTime:0.0040s ]
+SQL: SELECT `schoolyear_id` FROM `schoolyear` WHERE `schoolyear_nowyear` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `basetwograde` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `basetwograde` WHERE `user_id` = 1 AND `schoolyear_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `basetwolevelindex` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `basetwolevelindex` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `basetwolevelindex`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `deveonelevelindex` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `deveonelevelindex` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `deveonelevelindex`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-04-04T17:40:33+08:00 ] 127.0.0.1 /evaluation_system/index.php/Home/Query/query.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `schoolyear` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `schoolyear` WHERE `schoolyear_nowyear` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `basetwograde` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `basetwograde` WHERE `user_id` = 1 AND `schoolyear_id` = 2  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `deveonelevelgrade` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `deveonelevelgrade` WHERE `user_id` = 1 AND `schoolyear_id` = 2  [ RunTime:0.3410s ]
+SQL: SELECT * FROM `basetwograde` WHERE `user_id` = 1 AND `schoolyear_id` = 2  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `deveonelevelgrade` WHERE `user_id` = 1 AND `schoolyear_id` = 2  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `basetwolevelindex` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `basetwolevelindex` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `basetwolevelindex`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `deveonelevelindex` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `deveonelevelindex` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `deveonelevelindex`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-04-04T18:33:51+08:00 ] 127.0.0.1 /evaluation_system/index.php/Home/Query/query.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `schoolyear` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `schoolyear` WHERE `schoolyear_nowyear` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `basetwograde` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `basetwograde` WHERE `user_id` = 1 AND `schoolyear_id` = 2  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `deveonelevelgrade` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `deveonelevelgrade` WHERE `user_id` = 1 AND `schoolyear_id` = 2  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `basetwograde` WHERE `user_id` = 1 AND `schoolyear_id` = 2  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `deveonelevelgrade` WHERE `user_id` = 1 AND `schoolyear_id` = 2  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `basetwolevelindex` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `basetwolevelindex` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `basetwolevelindex`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `deveonelevelindex` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `deveonelevelindex` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `deveonelevelindex`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-04T22:36:12+08:00 ] 127.0.0.1 /evaluation_system/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-04T22:36:13+08:00 ] 127.0.0.1 /evaluation_system/index.php/home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.243014s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.243014s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

@@ -1,0 +1,80 @@
+body, div, address, blockquote, iframe, ul, ol, dl, dt, dd, li, dl, h1, h2, h3, h4, h5, h6, p, pre, table, caption, th, td, form, legend, fieldset, input, button, select, textarea {margin:0; padding:0; font-weight: normal;font-style: normal; font-family: inherit;} 
+ol, ul ,li{list-style: none;} 
+img {border: 0;} 
+body {color:#000;background:#FFF; text-align: center; font: 12px/1.5 Arial, Helvetica, sans-serif;} 
+.clearfix:after {clear:both; content:"."; display:block; height:0pt; visibility:hidden; overflow:hidden;} 
+.clear{clear:both;height:1px; margin-top:-1px; width:100%;} 
+
+.dis{display:block;} 
+.undis{display:none;} 
+
+/*此上面代码是初始CSS模板，下面是新写CSS布局框架代码*/ 
+
+#header ,#centers ,#footer{ width:100%; margin:0 auto; clear:both;font-size:18px; font-weight:bold;} 
+#header{ height:68px; border:1px solid #CCCCCC; } 
+#centers{ padding:8px 0;} 
+#footer{ border-top:1px solid #CCCCCC; background:#F2F2F2;} 
+
+
+#ddd{width:100%; margin:0 auto; clear:both;font-size:18px; font-weight:bold;}
+
+
+#centers .c_left{ float:left; width:230px; border:1px solid #00CC66; background:#F7F7F7; margin-right:5px; } 
+#centers .c_right{ float:left; width:500px;border:1px solid #00CC66; background:#F7F7F7}
+.a-upload {
+    padding: 0px 10px;
+    height: 20px;
+    line-height: 20px;
+    position: relative;
+    cursor: pointer;
+    color: #888;
+    background: #fafafa;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1
+}
+
+.a-upload  input {
+    position: absolute;
+    font-size: 100px;
+    right: 0;
+    top: 0;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    cursor: pointer
+}
+
+.a-upload:hover {
+    color: #444;
+    background: #eee;
+    border-color: #ccc;
+    text-decoration: none
+}
+.file {
+    position: relative;
+    display: inline-block;
+    background: #D0EEFF;
+    border: 1px solid #99D3F5;
+    border-radius: 4px;
+    padding: 4px 12px;
+    overflow: hidden;
+    color: #1E88C7;
+    text-decoration: none;
+    text-indent: 0;
+    line-height: 20px;
+}
+.file input {
+    position: absolute;
+    right: 0;
+    top: 0;
+    opacity: 0;
+}
+.file:hover {
+    background: #AADFFD;
+    border-color: #78C3F3;
+    color: #004974;
+    text-decoration: none;
+}
+

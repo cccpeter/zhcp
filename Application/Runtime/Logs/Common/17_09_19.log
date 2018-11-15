@@ -1,0 +1,30 @@
+[ 2017-09-19T01:08:05+08:00 ] 113.108.21.80 /zhcp/index.php/backgroundadmin/login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000102s ]
+ERR: 无法加载模块:Backgroundadmin
+
+[ 2017-09-19T02:02:06+08:00 ] 183.57.53.196 /zhcp/index.php/backgroundadmin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000098s ]
+ERR: 无法加载模块:Backgroundadmin
+
+[ 2017-09-19T08:53:29+08:00 ] 101.226.125.103 /zhcp/index.php/backgroundadmin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000080s ]
+ERR: 无法加载模块:Backgroundadmin
+
+[ 2017-09-19T22:20:44+08:00 ] 101.226.33.227 /zhcp/index.php/backgroundadmin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000086s ]
+ERR: 无法加载模块:Backgroundadmin
+
+[ 2017-09-19T23:17:07+08:00 ] 183.6.109.156 /zhcp/index.php/BackGroundAdmin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000092s ]
+ERR: 无法加载模块:BackGroundAdmin
+

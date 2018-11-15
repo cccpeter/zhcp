@@ -1,0 +1,24 @@
+[ 2018-09-22T10:13:56+08:00 ] 120.85.153.27 /zhcp/index.php/Home%C2%A0%C2%A0%EF%BC%88%E7%B3%BB
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000055s ]
+ERR: 无法加载模块:Home  （系
+
+[ 2018-09-22T10:14:09+08:00 ] 120.85.153.27 /zhcp/index.php/Home%C2%A0%C2%A0%EF%BC%88%E7%B3%BB
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000051s ]
+ERR: 无法加载模块:Home  （系
+
+[ 2018-09-22T11:03:58+08:00 ] 58.248.195.213 /zhcp/index.php/BackgroundAdmingg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000055s ]
+ERR: 无法加载模块:BackgroundAdmingg
+
+[ 2018-09-22T17:27:42+08:00 ] 180.163.220.4 /zhcp/index.php/backgroundadmin/index/queryclass.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000087s ]
+ERR: 无法加载模块:Backgroundadmin
+

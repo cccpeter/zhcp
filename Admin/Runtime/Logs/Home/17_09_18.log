@@ -1,0 +1,1579 @@
+[ 2017-09-18T09:09:31+08:00 ] 121.33.227.27 /zhcp/admin.php/Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000078s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000087s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000157s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001728s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001780s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000055s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000097s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000058s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000106s ]
+
+[ 2017-09-18T09:09:31+08:00 ] 121.33.227.27 /zhcp/admin.php/Home/Login/css/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000109s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000086s ]
+ERR: 非法操作:css
+
+[ 2017-09-18T09:09:32+08:00 ] 121.33.227.27 /zhcp/admin.php/Home/Login/images/head-img.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000072s ]
+
+[ 2017-09-18T09:10:05+08:00 ] 121.33.227.27 /zhcp/admin.php/Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000082s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000060s ]
+SQL: SHOW COLUMNS FROM `instructor` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `instructor` WHERE `instructor_account` = 'mzh' AND `instructor_password` = 'mzh' LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000040s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000066s ]
+
+[ 2017-09-18T09:10:05+08:00 ] 121.33.227.27 /zhcp/admin.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000111s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000104s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003477s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003534s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000055s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000098s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000053s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000102s ]
+
+[ 2017-09-18T09:10:05+08:00 ] 121.33.227.27 /zhcp/admin.php/Home/Index/copy.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000072s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001329s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001361s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000052s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000026s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000049s ]
+
+[ 2017-09-18T09:10:10+08:00 ] 121.33.227.27 /zhcp/admin.php/Home/Index/queryclass.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000091s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000067s ]
+SQL: SHOW COLUMNS FROM `pclass` [ RunTime:0.0006s ]
+SQL: SELECT `pclass_name` FROM `pclass` WHERE `pclass_id` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `pclass`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `instructor` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `instructor` WHERE `instructor_id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0003s ]
+SQL: SELECT `grade_name` FROM `grade` WHERE `grade_id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `pclass_id` = 0 AND `grade_id` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `schoolyear` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `schoolyear` WHERE `schoolyear_nowyear` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `grade_id` FROM `instructor` WHERE `instructor_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `pclass` WHERE `grade_id` = 1  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000063s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003264s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003297s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000033s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000057s ]
+
+[ 2017-09-18T09:10:14+08:00 ] 121.33.227.27 /zhcp/admin.php/Home/Index/queryclass.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000081s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000065s ]
+SQL: SHOW COLUMNS FROM `pclass` [ RunTime:0.0007s ]
+SQL: SELECT `pclass_name` FROM `pclass` WHERE `pclass_id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `pclass`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `instructor` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `instructor` WHERE `instructor_id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0005s ]
+SQL: SELECT `grade_name` FROM `grade` WHERE `grade_id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `pclass_id` = 1 AND `grade_id` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `schoolyear` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `schoolyear` WHERE `schoolyear_nowyear` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `basetwograde` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 7 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 8 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 9 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 10 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 11 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 12 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 13 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 14 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 15 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 16 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 17 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 18 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 19 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 20 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 21 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 22 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 23 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 24 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 25 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 26 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 27 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 28 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 29 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 30 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 31 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 32 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 33 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 34 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 35 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 36 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 37 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 38 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 39 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 40 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 41 LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 42 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 43 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 44 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 46 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `grade_id` FROM `instructor` WHERE `instructor_id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `pclass` WHERE `grade_id` = 1  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005639s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005685s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000035s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000063s ]
+
+[ 2017-09-18T09:13:28+08:00 ] 121.33.227.27 /zhcp/admin.php/Home/Index/queryclass.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000080s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000062s ]
+SQL: SHOW COLUMNS FROM `pclass` [ RunTime:0.0006s ]
+SQL: SELECT `pclass_name` FROM `pclass` WHERE `pclass_id` = 2 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `pclass`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `instructor` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `instructor` WHERE `instructor_id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0004s ]
+SQL: SELECT `grade_name` FROM `grade` WHERE `grade_id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `pclass_id` = 2 AND `grade_id` = 1  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `schoolyear` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `schoolyear` WHERE `schoolyear_nowyear` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `basetwograde` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 48 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 49 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 50 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 51 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 52 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 53 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 54 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 55 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 56 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 57 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 58 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 59 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 60 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 61 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 62 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 63 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 64 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 65 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 66 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 67 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 68 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 69 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 70 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 71 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 72 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 73 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 74 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 75 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 76 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 77 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 78 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 79 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 80 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 81 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 82 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 83 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 84 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 85 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 86 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 87 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 88 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `grade_id` FROM `instructor` WHERE `instructor_id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `pclass` WHERE `grade_id` = 1  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005953s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000062s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000105s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000048s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000077s ]
+
+[ 2017-09-18T09:13:40+08:00 ] 121.33.227.27 /zhcp/admin.php/Home/Index/queryclass.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000079s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000062s ]
+SQL: SHOW COLUMNS FROM `pclass` [ RunTime:0.0006s ]
+SQL: SELECT `pclass_name` FROM `pclass` WHERE `pclass_id` = 5 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `pclass`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `instructor` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `instructor` WHERE `instructor_id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0003s ]
+SQL: SELECT `grade_name` FROM `grade` WHERE `grade_id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `pclass_id` = 5 AND `grade_id` = 1  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `schoolyear` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `schoolyear` WHERE `schoolyear_nowyear` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `basetwograde` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 134 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 135 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 136 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 137 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 138 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 140 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 141 LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 142 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 143 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 144 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 145 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 146 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 147 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 148 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 149 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 150 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 151 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 152 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 153 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 154 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 155 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 157 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 158 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 159 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 160 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 161 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 162 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 163 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 164 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 165 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 166 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 167 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 168 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 169 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 170 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 171 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 172 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 173 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 174 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 175 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 176 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 177 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 178 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 1755 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 1757 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 1758 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `grade_id` FROM `instructor` WHERE `instructor_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `pclass` WHERE `grade_id` = 1  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004348s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004382s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000037s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000064s ]
+
+[ 2017-09-18T09:13:50+08:00 ] 121.33.227.27 /zhcp/admin.php/Home/Index/audit/user_id/134.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000083s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000065s ]
+SQL: SHOW COLUMNS FROM `schoolyear` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `schoolyear` WHERE `schoolyear_nowyear` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `basetwograde` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `basetwograde` WHERE `user_id` = 134 AND `schoolyear_id` = 6  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `deveonelevelgrade` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `deveonelevelgrade` WHERE `user_id` = 134 AND `schoolyear_id` = 6  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `basetwograde` WHERE `user_id` = 134 AND `schoolyear_id` = 6  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `deveonelevelgrade` WHERE `user_id` = 134 AND `schoolyear_id` = 6  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `table` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `table` WHERE `schoolyear_id` = 6 AND `user_id` = 134 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `basetwolevelindex` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `basetwolevelindex` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `deveonelevelindex` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `deveonelevelindex` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `deveonelevelindex`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT `pclass_id` FROM `user` WHERE `user_id` = 134 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: base /var/www/html/zhcp/Admin/Home/Controller/IndexController.class.php 第 182 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000117s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041118s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041191s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000060s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000086s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000077s ]
+
+[ 2017-09-18T09:13:59+08:00 ] 121.33.227.27 /zhcp/admin.php/Home/Index/queryclass/pclass_id/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000079s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000073s ]
+SQL: SHOW COLUMNS FROM `pclass` [ RunTime:0.0006s ]
+SQL: SELECT `pclass_name` FROM `pclass` WHERE `pclass_id` = 5 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `pclass`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `instructor` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `instructor` WHERE `instructor_id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0004s ]
+SQL: SELECT `grade_name` FROM `grade` WHERE `grade_id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `pclass_id` = 5 AND `grade_id` = 1  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `schoolyear` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `schoolyear` WHERE `schoolyear_nowyear` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `basetwograde` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 134 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 135 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 136 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 137 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 138 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 140 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 141 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 142 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 143 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 144 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 145 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 146 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 147 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 148 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 149 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 150 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 151 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 152 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 153 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 154 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 155 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 157 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 158 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 159 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 160 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 161 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 162 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 163 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 164 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 165 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 166 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 167 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 168 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 169 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 170 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 171 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 172 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 173 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 174 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 175 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 176 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 177 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 178 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 1755 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 1757 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 1758 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `grade_id` FROM `instructor` WHERE `instructor_id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `pclass` WHERE `grade_id` = 1  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 42 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 45 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 42 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 45 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 42 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 45 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 42 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 45 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 42 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 45 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 42 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 45 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 42 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 45 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 42 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 45 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 42 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 45 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 42 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 45 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 42 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 45 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 42 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 45 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 42 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 45 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 42 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 45 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 42 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 45 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 42 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 45 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 42 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 45 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 42 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 45 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 42 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 45 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 42 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 45 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 42 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 45 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 42 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 45 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 42 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 45 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 42 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 45 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 42 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005278s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005314s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000039s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000068s ]
+
+[ 2017-09-18T09:15:01+08:00 ] 121.33.227.27 /zhcp/admin.php/Home/Index/audit/user_id/146.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000094s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000067s ]
+SQL: SHOW COLUMNS FROM `schoolyear` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `schoolyear` WHERE `schoolyear_nowyear` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `basetwograde` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `basetwograde` WHERE `user_id` = 146 AND `schoolyear_id` = 6  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `deveonelevelgrade` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `deveonelevelgrade` WHERE `user_id` = 146 AND `schoolyear_id` = 6  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `basetwograde` WHERE `user_id` = 146 AND `schoolyear_id` = 6  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `deveonelevelgrade` WHERE `user_id` = 146 AND `schoolyear_id` = 6  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `table` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `table` WHERE `schoolyear_id` = 6 AND `user_id` = 146 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `basetwolevelindex` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `basetwolevelindex` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `deveonelevelindex` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `deveonelevelindex` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `deveonelevelindex`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT `pclass_id` FROM `user` WHERE `user_id` = 146 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: base /var/www/html/zhcp/Admin/Home/Controller/IndexController.class.php 第 182 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006805s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006839s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000062s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000035s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000063s ]
+
+[ 2017-09-18T09:15:07+08:00 ] 121.33.227.27 /zhcp/admin.php/Home/Index/queryclass/pclass_id/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000108s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000117s ]
+SQL: SHOW COLUMNS FROM `pclass` [ RunTime:0.0007s ]
+SQL: SELECT `pclass_name` FROM `pclass` WHERE `pclass_id` = 5 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `pclass`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `instructor` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `instructor` WHERE `instructor_id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0004s ]
+SQL: SELECT `grade_name` FROM `grade` WHERE `grade_id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `pclass_id` = 5 AND `grade_id` = 1  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `schoolyear` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `schoolyear` WHERE `schoolyear_nowyear` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `basetwograde` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 134 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 135 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 136 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 137 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 138 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 140 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 141 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 142 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 143 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 144 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 145 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 146 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 147 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 148 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 149 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 150 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 151 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 152 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 153 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 154 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 155 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 157 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 158 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 159 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 160 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 161 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 162 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 163 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 164 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 165 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 166 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 167 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 168 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 169 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 170 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 171 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 172 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 173 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 174 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 175 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 176 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 177 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 178 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 1755 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 1757 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 1758 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `grade_id` FROM `instructor` WHERE `instructor_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `pclass` WHERE `grade_id` = 1  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000067s ]
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 42 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 45 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 42 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 45 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 42 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 45 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 42 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 45 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 42 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 45 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 42 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 45 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 42 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 45 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 42 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 45 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 42 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 45 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 42 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 45 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 42 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 45 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 42 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 45 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 42 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 45 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 42 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 45 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 42 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 45 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 42 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 45 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 42 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 45 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 42 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 45 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 42 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 45 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 42 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 45 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 42 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 45 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 42 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 45 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 42 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 45 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 42 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 45 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 42 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004876s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004906s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000062s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000046s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000082s ]
+
+[ 2017-09-18T09:26:11+08:00 ] 121.33.227.27 /zhcp/admin.php/Home/Index/audit/user_id/170.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000080s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000064s ]
+SQL: SHOW COLUMNS FROM `schoolyear` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `schoolyear` WHERE `schoolyear_nowyear` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `basetwograde` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `basetwograde` WHERE `user_id` = 170 AND `schoolyear_id` = 6  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `deveonelevelgrade` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `deveonelevelgrade` WHERE `user_id` = 170 AND `schoolyear_id` = 6  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `basetwograde` WHERE `user_id` = 170 AND `schoolyear_id` = 6  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `deveonelevelgrade` WHERE `user_id` = 170 AND `schoolyear_id` = 6  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `table` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `table` WHERE `schoolyear_id` = 6 AND `user_id` = 170 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `basetwolevelindex` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `basetwolevelindex` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `deveonelevelindex` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `deveonelevelindex` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `deveonelevelindex`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT `pclass_id` FROM `user` WHERE `user_id` = 170 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: base /var/www/html/zhcp/Admin/Home/Controller/IndexController.class.php 第 182 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007178s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007214s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000073s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000038s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000066s ]
+
+[ 2017-09-18T09:26:18+08:00 ] 121.33.227.27 /zhcp/admin.php/Home/Index/audit/user_id/images/lightbox-btn-close.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000091s ]
+
+[ 2017-09-18T09:26:18+08:00 ] 121.33.227.27 /zhcp/admin.php/Home/Index/audit/user_id/images/lightbox-ico-loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000121s ]
+
+[ 2017-09-18T09:26:19+08:00 ] 121.33.227.27 /zhcp/admin.php/Home/Index/audit/user_id/images/lightbox-blank.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000080s ]
+
+[ 2017-09-18T09:26:19+08:00 ] 121.33.227.27 /zhcp/admin.php/Home/Index/audit/user_id/images/lightbox-btn-next.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000070s ]
+
+[ 2017-09-18T09:26:19+08:00 ] 121.33.227.27 /zhcp/admin.php/Home/Index/audit/user_id/images/lightbox-btn-next.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000074s ]
+
+[ 2017-09-18T09:26:20+08:00 ] 121.33.227.27 /zhcp/admin.php/Home/Index/audit/user_id/images/lightbox-btn-next.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000124s ]
+
+[ 2017-09-18T09:26:23+08:00 ] 121.33.227.27 /zhcp/admin.php/Home/Index/audit/user_id/images/lightbox-btn-prev.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000090s ]
+
+[ 2017-09-18T09:26:23+08:00 ] 121.33.227.27 /zhcp/admin.php/Home/Index/audit/user_id/images/lightbox-btn-next.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000102s ]
+
+[ 2017-09-18T09:26:35+08:00 ] 121.33.227.27 /zhcp/admin.php/Home/Index/audit/user_id/images/lightbox-btn-next.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000133s ]
+
+[ 2017-09-18T09:26:36+08:00 ] 121.33.227.27 /zhcp/admin.php/Home/Index/audit/user_id/images/lightbox-btn-next.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000071s ]
+
+[ 2017-09-18T09:26:40+08:00 ] 121.33.227.27 /zhcp/admin.php/Home/Index/audit/user_id/images/lightbox-btn-next.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000126s ]
+
+[ 2017-09-18T09:27:28+08:00 ] 121.33.227.27 /zhcp/admin.php/Home/Index/audit/user_id/159.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000129s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000068s ]
+SQL: SHOW COLUMNS FROM `schoolyear` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `schoolyear` WHERE `schoolyear_nowyear` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `basetwograde` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `basetwograde` WHERE `user_id` = 159 AND `schoolyear_id` = 6  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `deveonelevelgrade` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `deveonelevelgrade` WHERE `user_id` = 159 AND `schoolyear_id` = 6  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `basetwograde` WHERE `user_id` = 159 AND `schoolyear_id` = 6  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `deveonelevelgrade` WHERE `user_id` = 159 AND `schoolyear_id` = 6  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `table` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `table` WHERE `schoolyear_id` = 6 AND `user_id` = 159 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `basetwolevelindex` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `basetwolevelindex` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `deveonelevelindex` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `deveonelevelindex` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `deveonelevelindex`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT `pclass_id` FROM `user` WHERE `user_id` = 159 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: base /var/www/html/zhcp/Admin/Home/Controller/IndexController.class.php 第 182 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+NOTIC: [8] Undefined offset: 0 /var/www/html/zhcp/Admin/Runtime/Cache/Home/f703a01017f2131b4ae99f86ba9e16d0.php 第 45 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/zhcp/Admin/Runtime/Cache/Home/f703a01017f2131b4ae99f86ba9e16d0.php 第 47 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/zhcp/Admin/Runtime/Cache/Home/f703a01017f2131b4ae99f86ba9e16d0.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/zhcp/Admin/Runtime/Cache/Home/f703a01017f2131b4ae99f86ba9e16d0.php 第 51 行.
+NOTIC: [8] Undefined offset: 1 /var/www/html/zhcp/Admin/Runtime/Cache/Home/f703a01017f2131b4ae99f86ba9e16d0.php 第 57 行.
+NOTIC: [8] Undefined offset: 1 /var/www/html/zhcp/Admin/Runtime/Cache/Home/f703a01017f2131b4ae99f86ba9e16d0.php 第 60 行.
+NOTIC: [8] Undefined offset: 1 /var/www/html/zhcp/Admin/Runtime/Cache/Home/f703a01017f2131b4ae99f86ba9e16d0.php 第 62 行.
+NOTIC: [8] Undefined offset: 1 /var/www/html/zhcp/Admin/Runtime/Cache/Home/f703a01017f2131b4ae99f86ba9e16d0.php 第 64 行.
+NOTIC: [8] Undefined offset: 2 /var/www/html/zhcp/Admin/Runtime/Cache/Home/f703a01017f2131b4ae99f86ba9e16d0.php 第 70 行.
+NOTIC: [8] Undefined offset: 2 /var/www/html/zhcp/Admin/Runtime/Cache/Home/f703a01017f2131b4ae99f86ba9e16d0.php 第 72 行.
+NOTIC: [8] Undefined offset: 2 /var/www/html/zhcp/Admin/Runtime/Cache/Home/f703a01017f2131b4ae99f86ba9e16d0.php 第 74 行.
+NOTIC: [8] Undefined offset: 2 /var/www/html/zhcp/Admin/Runtime/Cache/Home/f703a01017f2131b4ae99f86ba9e16d0.php 第 76 行.
+NOTIC: [8] Undefined offset: 3 /var/www/html/zhcp/Admin/Runtime/Cache/Home/f703a01017f2131b4ae99f86ba9e16d0.php 第 84 行.
+NOTIC: [8] Undefined offset: 3 /var/www/html/zhcp/Admin/Runtime/Cache/Home/f703a01017f2131b4ae99f86ba9e16d0.php 第 86 行.
+NOTIC: [8] Undefined offset: 3 /var/www/html/zhcp/Admin/Runtime/Cache/Home/f703a01017f2131b4ae99f86ba9e16d0.php 第 88 行.
+NOTIC: [8] Undefined offset: 3 /var/www/html/zhcp/Admin/Runtime/Cache/Home/f703a01017f2131b4ae99f86ba9e16d0.php 第 90 行.
+NOTIC: [8] Undefined offset: 4 /var/www/html/zhcp/Admin/Runtime/Cache/Home/f703a01017f2131b4ae99f86ba9e16d0.php 第 96 行.
+NOTIC: [8] Undefined offset: 4 /var/www/html/zhcp/Admin/Runtime/Cache/Home/f703a01017f2131b4ae99f86ba9e16d0.php 第 98 行.
+NOTIC: [8] Undefined offset: 4 /var/www/html/zhcp/Admin/Runtime/Cache/Home/f703a01017f2131b4ae99f86ba9e16d0.php 第 100 行.
+NOTIC: [8] Undefined offset: 4 /var/www/html/zhcp/Admin/Runtime/Cache/Home/f703a01017f2131b4ae99f86ba9e16d0.php 第 102 行.
+NOTIC: [8] Undefined offset: 5 /var/www/html/zhcp/Admin/Runtime/Cache/Home/f703a01017f2131b4ae99f86ba9e16d0.php 第 109 行.
+NOTIC: [8] Undefined offset: 5 /var/www/html/zhcp/Admin/Runtime/Cache/Home/f703a01017f2131b4ae99f86ba9e16d0.php 第 111 行.
+NOTIC: [8] Undefined offset: 5 /var/www/html/zhcp/Admin/Runtime/Cache/Home/f703a01017f2131b4ae99f86ba9e16d0.php 第 113 行.
+NOTIC: [8] Undefined offset: 5 /var/www/html/zhcp/Admin/Runtime/Cache/Home/f703a01017f2131b4ae99f86ba9e16d0.php 第 115 行.
+NOTIC: [8] Undefined offset: 6 /var/www/html/zhcp/Admin/Runtime/Cache/Home/f703a01017f2131b4ae99f86ba9e16d0.php 第 121 行.
+NOTIC: [8] Undefined offset: 6 /var/www/html/zhcp/Admin/Runtime/Cache/Home/f703a01017f2131b4ae99f86ba9e16d0.php 第 123 行.
+NOTIC: [8] Undefined offset: 6 /var/www/html/zhcp/Admin/Runtime/Cache/Home/f703a01017f2131b4ae99f86ba9e16d0.php 第 125 行.
+NOTIC: [8] Undefined offset: 6 /var/www/html/zhcp/Admin/Runtime/Cache/Home/f703a01017f2131b4ae99f86ba9e16d0.php 第 127 行.
+NOTIC: [8] Undefined offset: 7 /var/www/html/zhcp/Admin/Runtime/Cache/Home/f703a01017f2131b4ae99f86ba9e16d0.php 第 134 行.
+NOTIC: [8] Undefined offset: 7 /var/www/html/zhcp/Admin/Runtime/Cache/Home/f703a01017f2131b4ae99f86ba9e16d0.php 第 136 行.
+NOTIC: [8] Undefined offset: 7 /var/www/html/zhcp/Admin/Runtime/Cache/Home/f703a01017f2131b4ae99f86ba9e16d0.php 第 138 行.
+NOTIC: [8] Undefined offset: 7 /var/www/html/zhcp/Admin/Runtime/Cache/Home/f703a01017f2131b4ae99f86ba9e16d0.php 第 140 行.
+NOTIC: [8] Undefined offset: 8 /var/www/html/zhcp/Admin/Runtime/Cache/Home/f703a01017f2131b4ae99f86ba9e16d0.php 第 147 行.
+NOTIC: [8] Undefined offset: 8 /var/www/html/zhcp/Admin/Runtime/Cache/Home/f703a01017f2131b4ae99f86ba9e16d0.php 第 149 行.
+NOTIC: [8] Undefined offset: 8 /var/www/html/zhcp/Admin/Runtime/Cache/Home/f703a01017f2131b4ae99f86ba9e16d0.php 第 151 行.
+NOTIC: [8] Undefined offset: 8 /var/www/html/zhcp/Admin/Runtime/Cache/Home/f703a01017f2131b4ae99f86ba9e16d0.php 第 153 行.
+NOTIC: [8] Undefined offset: 9 /var/www/html/zhcp/Admin/Runtime/Cache/Home/f703a01017f2131b4ae99f86ba9e16d0.php 第 159 行.
+NOTIC: [8] Undefined offset: 9 /var/www/html/zhcp/Admin/Runtime/Cache/Home/f703a01017f2131b4ae99f86ba9e16d0.php 第 161 行.
+NOTIC: [8] Undefined offset: 9 /var/www/html/zhcp/Admin/Runtime/Cache/Home/f703a01017f2131b4ae99f86ba9e16d0.php 第 163 行.
+NOTIC: [8] Undefined offset: 9 /var/www/html/zhcp/Admin/Runtime/Cache/Home/f703a01017f2131b4ae99f86ba9e16d0.php 第 165 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008479s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008516s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000040s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000069s ]
+
+[ 2017-09-18T09:27:41+08:00 ] 121.33.227.27 /zhcp/admin.php/Home/Class/detal.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000082s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000069s ]
+SQL: SHOW COLUMNS FROM `instructor` [ RunTime:0.0010s ]
+SQL: SELECT `grade_id` FROM `instructor` WHERE `instructor_id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `pclass` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `pclass` WHERE `grade_id` = 1  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `pclass_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `pclass_id` = 2 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `pclass_id` = 5 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `pclass_id` = 14 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `pclass_id` = 15 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `pclass_id` = 16 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `pclass_id` = 17 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `pclass_id` = 18 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `pclass_id` = 19 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `pclass_id` = 20 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `pclass_id` = 21 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018815s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018885s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000067s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000114s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000068s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000124s ]
+
+[ 2017-09-18T09:29:41+08:00 ] 121.33.227.27 /zhcp/admin.php/Home/Class/detal.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000135s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000099s ]
+SQL: SHOW COLUMNS FROM `instructor` [ RunTime:0.0008s ]
+SQL: SELECT `grade_id` FROM `instructor` WHERE `instructor_id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `pclass` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `pclass` WHERE `grade_id` = 1  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `pclass_id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `pclass_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `pclass_id` = 5 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `pclass_id` = 14 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `pclass_id` = 15 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `pclass_id` = 16 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `pclass_id` = 17 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `pclass_id` = 18 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `pclass_id` = 19 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `pclass_id` = 20 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `pclass_id` = 21 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000150s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005707s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005765s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000078s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000121s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000079s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000128s ]
+
+[ 2017-09-18T09:29:46+08:00 ] 121.33.227.27 /zhcp/admin.php/Home/Class/classaccount/class_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000082s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000067s ]
+SQL: SHOW COLUMNS FROM `pclass` [ RunTime:0.0009s ]
+SQL: SELECT `pclass_name` FROM `pclass` WHERE `pclass_id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `classgroup` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classgroup` WHERE `pclass_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024129s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024171s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000035s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000060s ]
+
+[ 2017-09-18T09:30:00+08:00 ] 121.33.227.27 /zhcp/admin.php/Home/Class/detal.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000130s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000098s ]
+SQL: SHOW COLUMNS FROM `instructor` [ RunTime:0.0007s ]
+SQL: SELECT `grade_id` FROM `instructor` WHERE `instructor_id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `pclass` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `pclass` WHERE `grade_id` = 1  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `pclass_id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `pclass_id` = 2 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `pclass_id` = 5 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `pclass_id` = 14 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `pclass_id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `pclass_id` = 16 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `pclass_id` = 17 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `pclass_id` = 18 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `pclass_id` = 19 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `pclass_id` = 20 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `pclass_id` = 21 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003451s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003494s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000048s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000074s ]
+
+[ 2017-09-18T09:30:03+08:00 ] 121.33.227.27 /zhcp/admin.php/Home/Class/classaccount/class_id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000078s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000067s ]
+SQL: SHOW COLUMNS FROM `pclass` [ RunTime:0.0006s ]
+SQL: SELECT `pclass_name` FROM `pclass` WHERE `pclass_id` = 2 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `classgroup` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classgroup` WHERE `pclass_id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000063s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001699s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001731s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000058s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000073s ]
+
+[ 2017-09-18T09:30:07+08:00 ] 121.33.227.27 /zhcp/admin.php/Home/Class/detal.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000135s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000069s ]
+SQL: SHOW COLUMNS FROM `instructor` [ RunTime:0.0007s ]
+SQL: SELECT `grade_id` FROM `instructor` WHERE `instructor_id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `pclass` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `pclass` WHERE `grade_id` = 1  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `pclass_id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `pclass_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `pclass_id` = 5 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `pclass_id` = 14 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `pclass_id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `pclass_id` = 16 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `pclass_id` = 17 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `pclass_id` = 18 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `pclass_id` = 19 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `pclass_id` = 20 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `pclass_id` = 21 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000064s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002848s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002880s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000031s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000056s ]
+
+[ 2017-09-18T09:30:09+08:00 ] 121.33.227.27 /zhcp/admin.php/Home/Class/classaccount/class_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000108s ]
+SQL: SHOW COLUMNS FROM `pclass` [ RunTime:0.0009s ]
+SQL: SELECT `pclass_name` FROM `pclass` WHERE `pclass_id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `classgroup` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `classgroup` WHERE `pclass_id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002693s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002736s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000076s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000033s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000077s ]
+
+[ 2017-09-18T09:31:14+08:00 ] 121.33.227.27 /zhcp/admin.php/Home/Class/detal.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000126s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000063s ]
+SQL: SHOW COLUMNS FROM `instructor` [ RunTime:0.0007s ]
+SQL: SELECT `grade_id` FROM `instructor` WHERE `instructor_id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `pclass` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `pclass` WHERE `grade_id` = 1  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `pclass_id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `pclass_id` = 2 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `pclass_id` = 5 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `pclass_id` = 14 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `pclass_id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `pclass_id` = 16 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `pclass_id` = 17 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `pclass_id` = 18 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `pclass_id` = 19 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `pclass_id` = 20 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `pclass_id` = 21 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000065s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003411s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003457s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000057s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000028s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000054s ]
+
+[ 2017-09-18T09:31:18+08:00 ] 121.33.227.27 /zhcp/admin.php/Home/Class/classaccount/class_id/15.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000136s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000117s ]
+SQL: SHOW COLUMNS FROM `pclass` [ RunTime:0.0194s ]
+SQL: SELECT `pclass_name` FROM `pclass` WHERE `pclass_id` = 15 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `classgroup` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `classgroup` WHERE `pclass_id` = 15 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002243s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002292s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000061s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000107s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000062s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000113s ]
+
+[ 2017-09-18T09:31:23+08:00 ] 121.33.227.27 /zhcp/admin.php/Home/Class/detal.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000104s ]
+SQL: SHOW COLUMNS FROM `instructor` [ RunTime:0.0006s ]
+SQL: SELECT `grade_id` FROM `instructor` WHERE `instructor_id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `pclass` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `pclass` WHERE `grade_id` = 1  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `pclass_id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `pclass_id` = 2 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `pclass_id` = 5 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `pclass_id` = 14 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `pclass_id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `pclass_id` = 16 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `pclass_id` = 17 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `pclass_id` = 18 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `pclass_id` = 19 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `pclass_id` = 20 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `pclass_id` = 21 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000062s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002866s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002897s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000057s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000032s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000057s ]
+
+[ 2017-09-18T09:31:27+08:00 ] 121.33.227.27 /zhcp/admin.php/Home/Class/classaccount/class_id/19.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000094s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000102s ]
+SQL: SHOW COLUMNS FROM `pclass` [ RunTime:0.0007s ]
+SQL: SELECT `pclass_name` FROM `pclass` WHERE `pclass_id` = 19 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `classgroup` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `classgroup` WHERE `pclass_id` = 19 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000063s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001722s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001763s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000058s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000032s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000055s ]
+
+[ 2017-09-18T09:34:35+08:00 ] 121.33.227.27 /zhcp/admin.php/Home/Class/detal.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000173s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000091s ]
+SQL: SHOW COLUMNS FROM `instructor` [ RunTime:0.0008s ]
+SQL: SELECT `grade_id` FROM `instructor` WHERE `instructor_id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `pclass` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `pclass` WHERE `grade_id` = 1  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `pclass_id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `pclass_id` = 2 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `pclass_id` = 5 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `pclass_id` = 14 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `pclass_id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `pclass_id` = 16 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `pclass_id` = 17 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `pclass_id` = 18 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `pclass_id` = 19 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `pclass_id` = 20 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `pclass_id` = 21 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003361s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003404s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000042s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000068s ]
+
+[ 2017-09-18T09:42:31+08:00 ] 121.33.227.27 /zhcp/admin.php/Home/Index/queryclass.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000098s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000109s ]
+SQL: SHOW COLUMNS FROM `pclass` [ RunTime:0.0007s ]
+SQL: SELECT `pclass_name` FROM `pclass` WHERE `pclass_id` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `pclass`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `instructor` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `instructor` WHERE `instructor_id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0005s ]
+SQL: SELECT `grade_name` FROM `grade` WHERE `grade_id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `pclass_id` = 0 AND `grade_id` = 1  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `schoolyear` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `schoolyear` WHERE `schoolyear_nowyear` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `grade_id` FROM `instructor` WHERE `instructor_id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `pclass` WHERE `grade_id` = 1  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003805s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003845s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000032s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000054s ]
+
+[ 2017-09-18T09:42:35+08:00 ] 121.33.227.27 /zhcp/admin.php/Home/Index/queryclass.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000128s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000075s ]
+SQL: SHOW COLUMNS FROM `pclass` [ RunTime:0.0006s ]
+SQL: SELECT `pclass_name` FROM `pclass` WHERE `pclass_id` = 5 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `pclass`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `instructor` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `instructor` WHERE `instructor_id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0004s ]
+SQL: SELECT `grade_name` FROM `grade` WHERE `grade_id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `pclass_id` = 5 AND `grade_id` = 1  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `schoolyear` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `schoolyear` WHERE `schoolyear_nowyear` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `basetwograde` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 134 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 135 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 136 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 137 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 138 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 140 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 141 LIMIT 1   [ RunTime:0.0041s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 142 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 143 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 144 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 145 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 146 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 147 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 148 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 149 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 150 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 151 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 152 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 153 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 154 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 155 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 157 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 158 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 159 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 160 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 161 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 162 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 163 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 164 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 165 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 166 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 167 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 168 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 169 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 170 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 171 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 172 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 173 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 174 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 175 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 176 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 177 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 178 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 1755 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 1757 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 1758 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `grade_id` FROM `instructor` WHERE `instructor_id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `pclass` WHERE `grade_id` = 1  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004417s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004511s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000081s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000037s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000065s ]
+
+[ 2017-09-18T09:42:40+08:00 ] 121.33.227.27 /zhcp/admin.php/Home/Index/audit/user_id/146.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000060s ]
+SQL: SHOW COLUMNS FROM `schoolyear` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `schoolyear` WHERE `schoolyear_nowyear` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `basetwograde` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `basetwograde` WHERE `user_id` = 146 AND `schoolyear_id` = 6  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `deveonelevelgrade` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `deveonelevelgrade` WHERE `user_id` = 146 AND `schoolyear_id` = 6  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `basetwograde` WHERE `user_id` = 146 AND `schoolyear_id` = 6  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `deveonelevelgrade` WHERE `user_id` = 146 AND `schoolyear_id` = 6  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `table` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `table` WHERE `schoolyear_id` = 6 AND `user_id` = 146 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `basetwolevelindex` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `basetwolevelindex` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `deveonelevelindex` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `deveonelevelindex` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `deveonelevelindex`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT `pclass_id` FROM `user` WHERE `user_id` = 146 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: base /var/www/html/zhcp/Admin/Home/Controller/IndexController.class.php 第 182 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000166s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008786s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008827s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000052s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000098s ]
+
+[ 2017-09-18T09:42:44+08:00 ] 121.33.227.27 /zhcp/admin.php/Home/Index/queryclass/pclass_id/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000116s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000080s ]
+SQL: SHOW COLUMNS FROM `pclass` [ RunTime:0.0009s ]
+SQL: SELECT `pclass_name` FROM `pclass` WHERE `pclass_id` = 5 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `pclass`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `instructor` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `instructor` WHERE `instructor_id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0004s ]
+SQL: SELECT `grade_name` FROM `grade` WHERE `grade_id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `pclass_id` = 5 AND `grade_id` = 1  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `schoolyear` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `schoolyear` WHERE `schoolyear_nowyear` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `basetwograde` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 134 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 135 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 136 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 137 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 138 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 140 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 141 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 142 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 143 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 144 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 145 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 146 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 147 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 148 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 149 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 150 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 151 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 152 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 153 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 154 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 155 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 157 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 158 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 159 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 160 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 161 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 162 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 163 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 164 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 165 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 166 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 167 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 168 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 169 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 170 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 171 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 172 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 173 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 174 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 175 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 176 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 177 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 178 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 1755 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 1757 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `basetwograde` WHERE `schoolyear_id` = 6 AND `user_id` = 1758 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `grade_id` FROM `instructor` WHERE `instructor_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `pclass` WHERE `grade_id` = 1  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 42 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 45 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 42 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 45 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 42 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 45 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 42 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 45 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 42 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 45 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 42 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 45 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 42 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 45 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 42 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 45 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 42 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 45 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 42 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 45 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 42 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 45 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 42 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 45 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 42 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 45 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 42 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 45 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 42 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 45 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 42 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 45 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 42 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 45 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 42 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 45 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 42 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 45 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 42 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 45 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 42 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 45 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 42 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 45 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 42 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 45 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 42 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 45 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 42 行.
+NOTIC: [8] Undefined index: basetwograde_state /var/www/html/zhcp/Admin/Runtime/Cache/Home/9d8821c36cf83541e70f8475f7cee7a4.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004753s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004785s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000039s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000067s ]
+
+[ 2017-09-18T12:49:36+08:00 ] 121.33.227.27 /zhcp/admin.php/Home/Index/loginout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000094s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000066s ]
+
+[ 2017-09-18T12:49:36+08:00 ] 121.33.227.27 /zhcp/admin.php/Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000081s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002284s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002327s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000078s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000125s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000065s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000115s ]
+
+[ 2017-09-18T12:49:36+08:00 ] 121.33.227.27 /zhcp/admin.php/Home/Login/css/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000084s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000089s ]
+ERR: 非法操作:css
+
+[ 2017-09-18T12:49:36+08:00 ] 121.33.227.27 /zhcp/admin.php/Home/Login/images/head-img.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000099s ]
+
+[ 2017-09-18T12:56:06+08:00 ] 113.108.10.5 /zhcp/admin.php/Home/Class/classaccount/class_id/19.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000096s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000060s ]
+
+[ 2017-09-18T12:56:06+08:00 ] 113.108.10.5 /zhcp/admin.php/Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000071s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000058s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001422s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001453s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000051s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000026s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000050s ]
+

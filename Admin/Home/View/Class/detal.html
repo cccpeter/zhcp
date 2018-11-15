@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+	<link rel="stylesheet" href="__PUBLIC__/css/public.css" />
+	<js file='__PUBLIC__/js/jquery-1.7.2.min.js'/>
+	<title></title>
+	<script type="text/javascript">
+	</script>
+</head>
+<body>
+	<form method='post' action="{:U('Home/Class/detal')}">
+	<table class="table">
+		<tr>
+			<td class="th" colspan="10">新建班级</td>
+		</tr>
+		<tr>
+			<td align="left" valign="middle">
+			请输入你添加班级的名称
+			<input type="text" name="classname" required="" />
+			<input class="input_button" type='submit' value='添加'/>
+			</td>
+		</tr>
+	</table>
+	<table class="table" width="100%">
+		<tr>
+			<td class="th" colspan="10">班级管理</td>
+		</tr>
+		<tr>
+			<td align="center" valign="middle" width="33%">班级名字</td>
+			<td align="center" valign="middle" width="33%">学生人数</td>
+			<td align="center" valign="middle" width="33%">操作</td>
+		</tr>
+		<foreach name="pclassname" item="vo">
+			<tr>
+				<td align="center" valign="middle" width="33%">{$vo.pclass_name}</td>
+				<td align="center" valign="middle" width="33%">{$vo.nums}
+				</td>
+				<td align="center" valign="middle" width="33%">
+				<a class="detail"  href="{:U('Home/Class/repw',array('class_id'=>$vo['pclass_id']))}">密码重置</a>
+				<a class="change"  href="{:U('Home/Class/student',array('class_id'=>$vo['pclass_id']))}">学生管理</a>
+				<br><br> 
+				<a class="delete" href="{:U('Home/Class/classaccount',array('class_id'=>$vo['pclass_id']))}">班级账号管理</a>
+				</td>
+			</tr>
+		</foreach>
+	</table>
+</form>
+</body>
+</html>
