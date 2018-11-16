@@ -1,4 +1,4 @@
-##evaluation_system  
+#evaluation_system  
 ##1、数据表导入的excel格式：/zhcp/Public/学生导入数据表头.xls和/zhcp/Public/教务成绩导入表.xls  
 ##2、存在的问题  
 * 1)tp3.2.3框架自带的验证码偶尔会报错  
