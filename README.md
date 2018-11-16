@@ -1,6 +1,6 @@
-#evaluation_system  
-1、数据表导入的excel格式：/zhcp/Public/学生导入数据表头.xls和/zhcp/Public/教务成绩导入表.xls  
-2、存在的问题  
+##evaluation_system  
+##1、数据表导入的excel格式：/zhcp/Public/学生导入数据表头.xls和/zhcp/Public/教务成绩导入表.xls  
+##2、存在的问题  
 * 1)tp3.2.3框架自带的验证码偶尔会报错  
 * 2)4种用户身份对应独立了四张表来做用户权限，最好合并一张表然后统一一个登录和权限控制器（量较大）  
 * 3)后台的内容frame在大屏幕下会出现问题  
